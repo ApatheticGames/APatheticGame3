@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\APatheticGame.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{E058D8A9-693C-4041-B314-8478BCCA3EDE}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\APatheticGame.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\APatheticGameEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{D358802C-1B56-4583-BB51-F10DB4DF5AFE}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\APatheticGame">
+			<UniqueIdentifier>{827EA93E-1C64-43F0-960D-CA07CF88DE91}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\APatheticGame\APatheticGame.Build.cs">
+			<Filter>Source\APatheticGame</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\APatheticGame\APatheticGame.cpp">
+			<Filter>Source\APatheticGame</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\APatheticGame\APatheticGame.h">
+			<Filter>Source\APatheticGame</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\APatheticGame\APatheticGameCharacter.cpp">
+			<Filter>Source\APatheticGame</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\APatheticGame\APatheticGameCharacter.h">
+			<Filter>Source\APatheticGame</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\APatheticGame\APatheticGameGameMode.cpp">
+			<Filter>Source\APatheticGame</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\APatheticGame\APatheticGameGameMode.h">
+			<Filter>Source\APatheticGame</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
