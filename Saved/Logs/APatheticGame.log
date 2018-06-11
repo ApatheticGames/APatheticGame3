@@ -1,4 +1,4 @@
-﻿Log file open, 06/11/18 11:13:12
+﻿Log file open, 06/11/18 18:10:07
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: APatheticGame
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(915099389) SRandInit(915099389).
+LogInit: Display: RandInit(350404616) SRandInit(350404616).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
-LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.160492
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.290844
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -84,8 +84,8 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.283s to configure plugins.
-LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Binaries/Win64/UE4Editor-APatheticGame-561.dll (API version 3944462).
+LogStreaming: Display: Took  0.204s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Josh/Documents/APatheticGame3/Binaries/Win64/UE4Editor-APatheticGame-373.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
@@ -189,7 +189,7 @@ LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured
 LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
 LogInit:  - LocalHostAddr = Default
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: WinSock: I am Slasser (192.168.0.8:0)
+LogInit: WinSock: I am DESKTOP-0HQ24IO (192.168.0.9:0)
 LogInit: Build: ++UE4+Release-4.19-CL-4033788
 LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
 LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
@@ -220,540 +220,219 @@ LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line: -EpicPortal 
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.030s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.06.11-15.13.14:217][  0]LogInit: Selected Device Profile: [Windows]
-[2018.06.11-15.13.14:217][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.06.11-15.13.14:234][  0]LogInit: Computer: SLASSER
-[2018.06.11-15.13.14:234][  0]LogInit: User: DasSKander
-[2018.06.11-15.13.14:234][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.06.11-15.13.14:235][  0]LogInit: High frequency timer resolution =3.422070 MHz
-[2018.06.11-15.13.14:235][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2018.06.11-15.13.14:235][  0]LogMemory: Platform Memory Stats for Windows
-[2018.06.11-15.13.14:235][  0]LogMemory: Process Physical Memory: 273.49 MB used, 273.49 MB peak
-[2018.06.11-15.13.14:235][  0]LogMemory: Process Virtual Memory: 268.61 MB used, 268.61 MB peak
-[2018.06.11-15.13.14:235][  0]LogMemory: Physical Memory: 6692.90 MB used,  9649.16 MB free, 16342.06 MB total
-[2018.06.11-15.13.14:235][  0]LogMemory: Virtual Memory: 634.61 MB used,  9649.16 MB free, 8388608.00 MB total
-[2018.06.11-15.13.14:260][  0]LogInit: Using OS detected language (en-US).
-[2018.06.11-15.13.14:260][  0]LogInit: Using OS detected locale (en-US).
-[2018.06.11-15.13.14:263][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.06.11-15.13.14:665][  0]LogStreaming: Display: Took  0.405s to EndInitTextLocalization.
-[2018.06.11-15.13.14:666][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
-[2018.06.11-15.13.14:666][  0]LogWindows: File 'shcore.dll' does not exist
-[2018.06.11-15.13.14:666][  0]LogInit: Setting process to DPI aware
-[2018.06.11-15.13.14:684][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
-[2018.06.11-15.13.14:684][  0]LogWindows: File 'shcore.dll' does not exist
-[2018.06.11-15.13.14:684][  0]LogInit: Setting process to DPI aware
-[2018.06.11-15.13.14:703][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.06.11-15.13.14:703][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.06.11-15.13.14:874][  0]LogD3D11RHI: D3D11 adapters:
-[2018.06.11-15.13.14:896][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.06.11-15.13.14:896][  0]LogD3D11RHI:       8085/0/7915 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.06.11-15.13.14:896][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.06.11-15.13.14:900][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.06.11-15.13.14:900][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2018.06.11-15.13.14:900][  0]LogWindows: EnumDisplayDevices:
-[2018.06.11-15.13.14:900][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.06.11-15.13.14:900][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.06.11-15.13.14:901][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.06.11-15.13.14:901][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.06.11-15.13.14:901][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
-[2018.06.11-15.13.14:901][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2018.06.11-15.13.14:901][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
-[2018.06.11-15.13.14:901][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2018.06.11-15.13.14:901][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.06.11-15.13.14:901][  0]LogD3D11RHI:   Driver Version: 388.71 (internal:23.21.13.8871, unified:388.71)
-[2018.06.11-15.13.14:901][  0]LogD3D11RHI:      Driver Date: 12-15-2017
-[2018.06.11-15.13.14:901][  0]LogRHI: Texture pool is 5659 MB (70% of 8085 MB)
-[2018.06.11-15.13.14:912][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.06.11-15.13.14:912][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.06.11-15.13.14:912][  0]LogD3D11RHI: Async texture creation enabled
-[2018.06.11-15.13.14:928][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.06.11-15.13.14:930][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Intermediate/Shaders/WorkingDirectory/9212/).
-[2018.06.11-15.13.14:930][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/DasSKander/AppData/Local/Temp/UnrealShaderWorkingDir/0DABA140473ABF84B75A7FA5F9CB512E/'.
-[2018.06.11-15.13.15:294][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.06.11-15.13.15:307][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.06.11-15.13.15:320][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.06.11-15.13.15:334][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.06.11-15.13.15:347][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.06.11-15.13.15:360][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.06.11-15.13.15:373][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.06.11-15.13.15:388][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.06.11-15.13.15:394][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.06.11-15.13.15:406][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.06.11-15.13.15:418][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.06.11-15.13.15:429][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.06.11-15.13.15:441][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.06.11-15.13.15:454][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.06.11-15.13.15:465][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.06.11-15.13.15:489][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.06.11-15.13.15:490][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.06.11-15.13.15:502][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.06.11-15.13.15:503][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.06.11-15.13.15:539][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.06.11-15.13.15:551][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.06.11-15.13.15:563][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.06.11-15.13.15:576][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.06.11-15.13.15:588][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.06.11-15.13.15:601][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.06.11-15.13.15:601][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.06.11-15.13.15:705][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.06.11-15.13.15:705][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.06.11-15.13.15:705][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.06.11-15.13.16:370][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.06.11-15.13.16:451][  0]LogDerivedDataCache: Loaded boot cache 0.08s 77MB C:/Users/DasSKander/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.06.11-15.13.16:451][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/DasSKander/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.06.11-15.13.16:451][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.06.11-15.13.16:451][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.06.11-15.13.16:451][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.06.11-15.13.16:451][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.06.11-15.13.16:467][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.06.11-15.13.16:478][  0]LogDerivedDataCache: Using Local data cache path C:/Users/DasSKander/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.06.11-15.13.16:478][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.06.11-15.13.16:478][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.06.11-15.13.16:489][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.06.11-15.13.16:489][  0]LogSlate: Using Freetype 2.6.0
-[2018.06.11-15.13.16:490][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.06.11-15.13.16:490][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.06.11-15.13.16:612][  0]LogAssetRegistry: FAssetRegistry took 0.0236 seconds to start up
-[2018.06.11-15.13.16:891][  0]LogInit: Selected Device Profile: [Windows]
-[2018.06.11-15.13.17:043][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.06.11-15.13.17:045][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.06.11-15.13.17:045][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.06.11-15.13.17:045][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.06.11-15.13.17:045][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.06.11-15.13.17:045][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.06.11-15.13.17:074][  0]LogNetVersion: APatheticGame , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1227650307)
-[2018.06.11-15.13.17:627][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.163540 seconds
-[2018.06.11-15.13.17:633][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.06.11-15.13.17:633][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
-[2018.06.11-15.13.17:633][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.06.11-15.13.19:282][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.06.11-15.13.19:310][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.06.11-15.13.20:345][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000436e9880, Size=64, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
-[2018.06.11-15.13.21:418][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000436e9880, Size=64
-[2018.06.11-15.13.21:418][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000436e9880, Size=64, Default__ThirdPerson_AnimBP_C Function /Engine/Transient.REINST_ThirdPerson_AnimBP_C_0:ExecuteUbergraph_ThirdPerson_AnimBP
-[2018.06.11-15.13.21:616][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004335a660, Size=72, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
-[2018.06.11-15.13.23:514][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [15.789858ms] /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
-[2018.06.11-15.13.23:941][  0]SourceControl: Source control is disabled
-[2018.06.11-15.13.23:941][  0]SourceControl: Source control is disabled
-[2018.06.11-15.13.23:957][  0]SourceControl: Source control is disabled
-[2018.06.11-15.13.23:974][  0]SourceControl: Source control is disabled
-[2018.06.11-15.13.24:406][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.06.11-15.13.24:549][  0]LogOcInput: OculusInput pre-init called
-[2018.06.11-15.13.24:649][  0]LogEngine: Initializing Engine...
-[2018.06.11-15.13.24:651][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.06.11-15.13.24:652][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.06.11-15.13.24:652][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.06.11-15.13.24:915][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.06.11-15.13.24:924][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.11-15.13.24:935][  0]LogInit: FAudioDevice initialized.
-[2018.06.11-15.13.26:509][  0]LogDerivedDataCache: Saved boot cache 1.57s 77MB C:/Users/DasSKander/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.06.11-15.13.26:523][  0]LogInit: Texture streaming: Enabled
-[2018.06.11-15.13.26:550][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.06.11-15.13.26:661][  0]LogInit: Transaction tracking system initialized
-[2018.06.11-15.13.26:708][  0]BlueprintLog: New page: Editor Load
-[2018.06.11-15.13.26:835][  0]LocalizationService: Localization service is disabled
-[2018.06.11-15.13.26:932][  0]LogConsoleResponse: Display: 
-[2018.06.11-15.13.27:324][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.06.11-15.13.27:324][  0]LogCook: Display: Mobile HDR setting 1
-[2018.06.11-15.13.27:324][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.06.11-15.13.27:324][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.06.11-15.13.27:324][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.06.11-15.13.27:666][  0]LogFileCache: Scanning file cache for directory 'C:/Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/' took 0.01s
-[2018.06.11-15.13.27:666][  0]SourceControl: Source control is disabled
-[2018.06.11-15.13.27:666][  0]Cmd: MAP LOAD FILE="../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.06.11-15.13.27:666][  0]LightingResults: New page: Lighting Build
-[2018.06.11-15.13.27:669][  0]MapCheck: New page: Map Check
-[2018.06.11-15.13.27:669][  0]LightingResults: New page: Lighting Build
-[2018.06.11-15.13.27:679][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000436e9880, Size=64
-[2018.06.11-15.13.32:433][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.06.11-15.13.33:131][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.06.11-15.13.33:215][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.06.11-15.13.33:319][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 104.255ms to complete.
-[2018.06.11-15.13.33:319][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 5.653
-[2018.06.11-15.13.35:214][  0]LogCollectionManager: Loaded 0 collections in 0.003067 seconds
-[2018.06.11-15.13.35:825][  0]LogFileCache: Scanning file cache for directory 'C:/Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Saved/Collections/' took 0.01s
-[2018.06.11-15.13.35:825][  0]LogFileCache: Scanning file cache for directory 'C:/Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/Developers/DasSKander/Collections/' took 0.01s
-[2018.06.11-15.13.35:825][  0]LogFileCache: Scanning file cache for directory 'C:/Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/Collections/' took 0.01s
-[2018.06.11-15.13.35:825][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.06.11-15.13.35:934][  0]LogContentBrowser: Native class hierarchy populated in 0.0661 seconds. Added 2455 classes and 560 folders.
-[2018.06.11-15.13.36:314][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
-[2018.06.11-15.13.43:228][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2018.06.11-15.13.44:124][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2018.06.11-15.13.45:737][  0]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.06.11-15.13.45:739][  0]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.06.11-15.13.45:778][  0]LogSlate: Took 0.018051 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.06.11-15.13.45:886][  0]LogSlate: Took 0.098828 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2018.06.11-15.13.46:913][  0]LogRenderer: Reallocating scene render targets to support 1128x580 Format 10 NumSamples 1 (Frame:1).
-[2018.06.11-15.13.47:409][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2018.06.11-15.13.47:409][  0]LogLoad: (Engine Initialization) Total time: 36.35 seconds
-[2018.06.11-15.13.47:409][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.06.11-15.13.47:478][  0]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.11-15.13.47:497][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.06.11-15.13.47:721][  1]LogAssetRegistry: Asset discovery search completed in 31.1276 seconds
-[2018.06.11-15.13.47:723][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.06.11-15.13.47:723][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000201 seconds (updated 0 objects)
-[2018.06.11-15.13.57:508][648]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.11-15.14.00:238][971]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1M_Cube_Chamfer)
-[2018.06.11-15.14.05:718][470]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.11-15.14.08:186][752]LogSlate: Took 0.064714 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.06.11-15.14.16:226][676]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.11-15.14.19:463][931]LogSlate: Took 0.155082 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.06.11-15.14.19:466][931]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.11-15.14.19:543][931]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.11-15.14.19:582][931]LogSlate: Took 0.020481 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.06.11-15.14.33:065][931]Running C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/APatheticGame.uproject" -game -rocket -progress
-[2018.06.11-15.14.35:880][931]Discovering modules, targets and source code for project...
-[2018.06.11-15.16.28:513][931]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2018.06.11-15.16.28:661][931]Candidate modules for hot reload:
-[2018.06.11-15.16.28:661][931]  APatheticGame
-[2018.06.11-15.16.28:662][931]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe APatheticGame -ModuleWithSuffix=APatheticGame,6099 Win64 Development -editorrecompile -canskiplink "C:/Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/APatheticGame.uproject" ]
-[2018.06.11-15.22.05:663][931]CompilerResultsLog: New page: Compilation - Jun 11, 2018, 7:22:05 AM
-[2018.06.11-15.22.05:682][931]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.06.11-15.22.05:682][931]CompilerResultsLog: Creating makefile for hot reloading APatheticGame (new files with reflected types)
-[2018.06.11-15.22.05:683][931]CompilerResultsLog: Compiling game modules for hot reload
-[2018.06.11-15.22.05:683][931]CompilerResultsLog: Parsing headers for APatheticGameEditor
-[2018.06.11-15.22.05:683][931]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\DasSKander\Documents\Klei\DoNotStarveTogether\APatheticGame3\APatheticGame.uproject" "C:\Users\DasSKander\Documents\Klei\DoNotStarveTogether\APatheticGame3\Intermediate\Build\Win64\APatheticGameEditor\Development\APatheticGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.06.11-15.22.05:685][931]CompilerResultsLog: Reflection code generated for APatheticGameEditor in 17.651612 seconds
-[2018.06.11-15.22.05:685][931]CompilerResultsLog: Performing 7 actions (4 in parallel)
-[2018.06.11-15.22.05:686][931]CompilerResultsLog: TestHere.cpp
-[2018.06.11-15.22.05:686][931]CompilerResultsLog: MoveObject.cpp
-[2018.06.11-15.22.05:686][931]CompilerResultsLog: MoveObject.gen.cpp
-[2018.06.11-15.22.05:686][931]CompilerResultsLog: APatheticGame.init.gen.cpp
-[2018.06.11-15.22.05:686][931]CompilerResultsLog: TestHere.gen.cpp
-[2018.06.11-15.22.05:687][931]CompilerResultsLog: [6/7] Link UE4Editor-APatheticGame-6099.dll
-[2018.06.11-15.22.05:687][931]CompilerResultsLog: [7/7] Link UE4Editor-APatheticGame-6099.lib
-[2018.06.11-15.22.05:687][931]CompilerResultsLog:    Creating library C:\Users\DasSKander\Documents\Klei\DoNotStarveTogether\APatheticGame3\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-APatheticGame-6099.lib and object C:\Users\DasSKander\Documents\Klei\DoNotStarveTogether\APatheticGame3\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-APatheticGame-6099.exp
-[2018.06.11-15.22.05:688][931]CompilerResultsLog:    Creating library C:\Users\DasSKander\Documents\Klei\DoNotStarveTogether\APatheticGame3\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-APatheticGame-6099.suppressed.lib and object C:\Users\DasSKander\Documents\Klei\DoNotStarveTogether\APatheticGame3\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-APatheticGame-6099.suppressed.exp
-[2018.06.11-15.22.05:690][931]CompilerResultsLog: Total build time: 336.07 seconds (Local executor: 163.46 seconds)
-[2018.06.11-15.22.05:713][931]LogMainFrame: MainFrame: Module compiling took 337.179 seconds
-[2018.06.11-15.22.06:137][931]LogClass: Could not find existing class TestHere in package /Script/APatheticGame for HotReload, assuming new class
-[2018.06.11-15.22.06:149][931]LogContentBrowser: Native class hierarchy updated for 'APatheticGame' in 0.0031 seconds. Added 4 classes and 2 folders.
-[2018.06.11-15.22.06:154][931]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.06.11-15.22.06:888][931]LogContentBrowser: Native class hierarchy populated in 0.0135 seconds. Added 2457 classes and 562 folders.
-[2018.06.11-15.22.07:131][931]Display: HotReload took 338.6s.
-[2018.06.11-15.22.07:135][931]Warning: HotReload operation took 338.6s.
-[2018.06.11-15.22.09:819][931]LogSlate: Window 'Add C++ Component' being destroyed
-[2018.06.11-15.22.11:580][931]LogHotReload: New module detected: UE4Editor-APatheticGame-6099.dll
-[2018.06.11-15.22.13:016][931]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.11-15.22.13:246][931]LogSlate: Took 0.000614 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.06.11-15.22.13:479][932]LogHotReload: Starting Hot-Reload from IDE
-[2018.06.11-15.22.13:639][932]LogContentBrowser: Native class hierarchy updated for 'APatheticGame' in 0.0026 seconds. Added 4 classes and 2 folders.
-[2018.06.11-15.22.13:643][932]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.06.11-15.22.13:681][932]LogContentBrowser: Native class hierarchy populated in 0.0122 seconds. Added 2457 classes and 562 folders.
-[2018.06.11-15.22.13:716][932]Display: HotReload took  0.2s.
-[2018.06.11-15.24.17:539][111]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.06.11-15.31.43:443][411]LogSavePackage: Save=405.90ms
-[2018.06.11-15.31.43:443][411]LogSavePackage: Moving '../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Saved/ThirdPersonExampleMap_Auto12A5732C849F092D74F98D18F758C89AD.tmp' to '../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto1.umap'
-[2018.06.11-15.31.43:494][411]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto1.umap
-[2018.06.11-15.31.43:522][411]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.962
-[2018.06.11-15.31.43:524][411]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.962
-[2018.06.11-15.36.58:917][275]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ramp_StaticMesh)
-[2018.06.11-15.37.01:053][522]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.11-15.38.34:735][729]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.11-15.38.38:071][113]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1M_Cube_Chamfer)
-[2018.06.11-15.38.42:029][576]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.11-15.38.50:684][550]LogSavePackage: Save=101.29ms
-[2018.06.11-15.38.50:684][550]LogSavePackage: Moving '../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Saved/ThirdPersonExampleMapA3455C60458BC91D31A8D88D9B060120.tmp' to '../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
-[2018.06.11-15.38.50:688][550]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
-[2018.06.11-15.38.51:582][550]LogSavePackage: Save=270.86ms
-[2018.06.11-15.38.51:582][550]LogSavePackage: Moving '../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Saved/ThirdPersonExampleMap_BuiltDataD2245656484323E9A71D5C8B410F3E22.tmp' to '../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2018.06.11-15.38.51:604][550]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset
-[2018.06.11-15.38.58:406][130]LogTemp: Repeating last play command: Selected Viewport
-[2018.06.11-15.38.58:452][130]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.06.11-15.38.58:472][130]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.11-15.38.58:529][130]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 11, 2018, 7:38:58 AM)
-[2018.06.11-15.38.58:541][130]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2018.06.11-15.38.58:681][130]LogPlayLevel: PIE: StaticDuplicateObject took: (0.139023s)
-[2018.06.11-15.38.58:683][130]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.06.11-15.38.58:684][130]LogPlayLevel: PIE: World Init took: (0.001726s)
-[2018.06.11-15.38.58:684][130]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.142845s)
-[2018.06.11-15.38.58:721][130]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.11-15.38.58:731][130]LogInit: FAudioDevice initialized.
-[2018.06.11-15.38.58:781][130]LogLoad: Game class is 'APatheticGameGameMode'
-[2018.06.11-15.38.58:953][130]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.06.11-11.38.58
-[2018.06.11-15.38.59:026][130]LogWorld: Bringing up level for play took: 0.116487
-[2018.06.11-15.38.59:204][130]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
-[2018.06.11-15.38.59:217][130]LogTemp: Warning: JT_test
-[2018.06.11-15.38.59:234][130]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.597
-[2018.06.11-15.38.59:235][130]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.06.11-15.39.13:044][753]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.06.11-15.39.13:182][753]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.06.11-15.46.58:537][177]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.19/FeaturePacks/StarterContent.upack)
-[2018.06.11-15.46.58:680][177]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2018.06.11-15.46.58:724][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2018.06.11-15.46.58:732][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2018.06.11-15.46.58:762][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2018.06.11-15.46.58:775][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2018.06.11-15.46.58:806][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2018.06.11-15.46.58:828][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2018.06.11-15.46.58:856][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2018.06.11-15.46.58:891][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2018.06.11-15.46.58:898][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2018.06.11-15.46.58:907][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2018.06.11-15.46.58:923][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2018.06.11-15.46.58:954][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Audio/Collapse01.uasset"
-[2018.06.11-15.46.58:977][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Audio/Collapse02.uasset"
-[2018.06.11-15.46.59:011][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2018.06.11-15.46.59:038][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Audio/Explosion01.uasset"
-[2018.06.11-15.46.59:054][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Audio/Explosion02.uasset"
-[2018.06.11-15.46.59:080][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2018.06.11-15.46.59:098][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Audio/Fire01.uasset"
-[2018.06.11-15.46.59:113][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2018.06.11-15.46.59:129][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2018.06.11-15.46.59:146][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2018.06.11-15.46.59:163][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Audio/Light01.uasset"
-[2018.06.11-15.46.59:218][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2018.06.11-15.46.59:274][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Audio/Light02.uasset"
-[2018.06.11-15.46.59:340][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2018.06.11-15.46.59:483][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Audio/Smoke01.uasset"
-[2018.06.11-15.46.59:497][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2018.06.11-15.46.59:553][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2018.06.11-15.46.59:747][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2018.06.11-15.46.59:876][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2018.06.11-15.46.59:933][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2018.06.11-15.47.00:137][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2018.06.11-15.47.00:550][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2018.06.11-15.47.00:658][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Audio/Steam01.uasset"
-[2018.06.11-15.47.00:681][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2018.06.11-15.47.00:734][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2018.06.11-15.47.00:769][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2018.06.11-15.47.00:872][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2018.06.11-15.47.00:890][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2018.06.11-15.47.00:903][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2018.06.11-15.47.00:907][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2018.06.11-15.47.00:924][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2018.06.11-15.47.00:936][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2018.06.11-15.47.00:944][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2018.06.11-15.47.00:956][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2018.06.11-15.47.00:964][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2018.06.11-15.47.00:989][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2018.06.11-15.47.01:004][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2018.06.11-15.47.01:020][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2018.06.11-15.47.01:033][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2018.06.11-15.47.01:048][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2018.06.11-15.47.01:734][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2018.06.11-15.47.01:831][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2018.06.11-15.47.01:851][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
-[2018.06.11-15.47.02:022][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Maps/Minimal_Default.umap"
-[2018.06.11-15.47.02:174][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2018.06.11-15.47.02:474][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Maps/StarterMap.umap"
-[2018.06.11-15.47.02:648][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
-[2018.06.11-15.47.02:675][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2018.06.11-15.47.02:684][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2018.06.11-15.47.02:728][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2018.06.11-15.47.02:753][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2018.06.11-15.47.02:773][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2018.06.11-15.47.02:787][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2018.06.11-15.47.02:823][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2018.06.11-15.47.03:419][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2018.06.11-15.47.03:443][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2018.06.11-15.47.03:456][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2018.06.11-15.47.03:470][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2018.06.11-15.47.03:485][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2018.06.11-15.47.03:497][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2018.06.11-15.47.03:512][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2018.06.11-15.47.03:525][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2018.06.11-15.47.03:536][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2018.06.11-15.47.03:563][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2018.06.11-15.47.03:573][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Glass.uasset"
-[2018.06.11-15.47.03:606][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2018.06.11-15.47.03:622][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2018.06.11-15.47.03:635][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2018.06.11-15.47.03:644][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2018.06.11-15.47.03:653][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2018.06.11-15.47.03:669][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2018.06.11-15.47.03:682][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2018.06.11-15.47.03:699][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2018.06.11-15.47.03:713][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2018.06.11-15.47.03:753][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2018.06.11-15.47.03:794][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2018.06.11-15.47.03:832][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2018.06.11-15.47.03:847][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2018.06.11-15.47.03:907][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2018.06.11-15.47.04:059][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2018.06.11-15.47.04:098][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2018.06.11-15.47.04:302][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2018.06.11-15.47.04:374][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2018.06.11-15.47.04:400][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2018.06.11-15.47.04:415][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2018.06.11-15.47.04:431][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2018.06.11-15.47.04:448][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2018.06.11-15.47.04:479][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2018.06.11-15.47.04:517][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2018.06.11-15.47.04:555][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2018.06.11-15.47.04:569][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2018.06.11-15.47.04:590][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Particles/P_Explosion.uasset"
-[2018.06.11-15.47.04:618][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Particles/P_Fire.uasset"
-[2018.06.11-15.47.04:657][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Particles/P_Smoke.uasset"
-[2018.06.11-15.47.04:685][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Particles/P_Sparks.uasset"
-[2018.06.11-15.47.04:700][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2018.06.11-15.47.04:717][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2018.06.11-15.47.04:728][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2018.06.11-15.47.04:752][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2018.06.11-15.47.04:773][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2018.06.11-15.47.04:785][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2018.06.11-15.47.04:799][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2018.06.11-15.47.04:815][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2018.06.11-15.47.04:844][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2018.06.11-15.47.04:860][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2018.06.11-15.47.04:877][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2018.06.11-15.47.04:921][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Props/MaterialSphere.uasset"
-[2018.06.11-15.47.04:935][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Props/SM_Bush.uasset"
-[2018.06.11-15.47.04:969][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Props/SM_Chair.uasset"
-[2018.06.11-15.47.04:994][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2018.06.11-15.47.05:009][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Props/SM_Couch.uasset"
-[2018.06.11-15.47.05:022][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Props/SM_Door.uasset"
-[2018.06.11-15.47.05:040][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2018.06.11-15.47.05:058][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2018.06.11-15.47.05:075][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2018.06.11-15.47.05:090][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2018.06.11-15.47.05:121][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2018.06.11-15.47.05:137][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2018.06.11-15.47.05:144][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2018.06.11-15.47.05:158][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Props/SM_Rock.uasset"
-[2018.06.11-15.47.05:175][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Props/SM_Shelf.uasset"
-[2018.06.11-15.47.05:193][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Props/SM_Stairs.uasset"
-[2018.06.11-15.47.05:217][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Props/SM_Statue.uasset"
-[2018.06.11-15.47.05:260][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Props/SM_TableRound.uasset"
-[2018.06.11-15.47.05:283][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2018.06.11-15.47.05:340][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2018.06.11-15.47.05:375][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2018.06.11-15.47.05:433][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2018.06.11-15.47.05:443][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2018.06.11-15.47.05:459][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2018.06.11-15.47.05:471][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2018.06.11-15.47.05:482][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2018.06.11-15.47.05:546][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2018.06.11-15.47.05:609][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2018.06.11-15.47.05:652][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2018.06.11-15.47.05:672][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2018.06.11-15.47.05:684][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2018.06.11-15.47.05:694][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2018.06.11-15.47.05:710][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2018.06.11-15.47.05:737][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2018.06.11-15.47.05:776][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2018.06.11-15.47.05:822][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2018.06.11-15.47.05:837][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2018.06.11-15.47.05:857][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2018.06.11-15.47.05:878][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2018.06.11-15.47.05:913][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2018.06.11-15.47.05:953][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2018.06.11-15.47.06:106][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2018.06.11-15.47.06:126][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2018.06.11-15.47.06:178][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2018.06.11-15.47.06:189][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2018.06.11-15.47.06:203][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2018.06.11-15.47.06:237][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2018.06.11-15.47.06:256][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2018.06.11-15.47.06:280][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2018.06.11-15.47.06:301][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2018.06.11-15.47.06:415][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2018.06.11-15.47.06:477][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2018.06.11-15.47.06:687][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2018.06.11-15.47.06:753][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2018.06.11-15.47.06:840][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2018.06.11-15.47.06:901][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2018.06.11-15.47.06:996][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2018.06.11-15.47.07:059][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2018.06.11-15.47.07:169][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2018.06.11-15.47.07:246][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2018.06.11-15.47.07:299][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2018.06.11-15.47.07:350][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2018.06.11-15.47.07:421][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2018.06.11-15.47.07:434][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2018.06.11-15.47.07:448][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2018.06.11-15.47.07:485][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2018.06.11-15.47.07:520][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2018.06.11-15.47.07:547][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2018.06.11-15.47.07:567][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2018.06.11-15.47.07:595][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2018.06.11-15.47.07:607][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2018.06.11-15.47.07:702][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2018.06.11-15.47.07:733][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2018.06.11-15.47.07:818][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2018.06.11-15.47.07:899][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2018.06.11-15.47.08:037][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2018.06.11-15.47.09:159][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2018.06.11-15.47.09:697][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2018.06.11-15.47.09:763][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2018.06.11-15.47.09:849][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2018.06.11-15.47.10:188][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2018.06.11-15.47.10:259][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2018.06.11-15.47.10:345][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2018.06.11-15.47.10:407][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2018.06.11-15.47.10:479][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2018.06.11-15.47.10:522][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2018.06.11-15.47.10:574][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2018.06.11-15.47.10:590][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2018.06.11-15.47.10:626][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2018.06.11-15.47.10:641][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Door_M.uasset"
-[2018.06.11-15.47.10:654][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Door_N.uasset"
-[2018.06.11-15.47.10:665][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2018.06.11-15.47.10:698][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2018.06.11-15.47.10:713][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2018.06.11-15.47.10:740][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2018.06.11-15.47.10:757][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2018.06.11-15.47.10:784][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2018.06.11-15.47.10:796][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2018.06.11-15.47.10:921][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2018.06.11-15.47.11:003][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2018.06.11-15.47.11:106][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2018.06.11-15.47.11:179][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2018.06.11-15.47.11:271][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2018.06.11-15.47.11:373][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2018.06.11-15.47.11:410][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2018.06.11-15.47.11:432][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2018.06.11-15.47.11:604][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2018.06.11-15.47.11:675][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2018.06.11-15.47.12:135][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2018.06.11-15.47.12:919][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2018.06.11-15.47.13:469][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2018.06.11-15.47.16:748][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2018.06.11-15.47.16:862][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2018.06.11-15.47.16:896][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2018.06.11-15.47.16:971][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2018.06.11-15.47.17:027][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2018.06.11-15.47.17:082][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2018.06.11-15.47.17:129][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2018.06.11-15.47.17:207][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2018.06.11-15.47.17:268][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2018.06.11-15.47.17:310][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2018.06.11-15.47.17:409][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2018.06.11-15.47.17:470][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2018.06.11-15.47.17:561][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2018.06.11-15.47.17:636][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2018.06.11-15.47.17:735][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2018.06.11-15.47.17:756][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2018.06.11-15.47.17:780][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2018.06.11-15.47.17:788][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2018.06.11-15.47.17:815][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2018.06.11-15.47.17:836][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2018.06.11-15.47.17:850][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2018.06.11-15.47.17:873][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2018.06.11-15.47.17:950][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2018.06.11-15.47.18:070][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2018.06.11-15.47.18:555][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2018.06.11-15.47.18:571][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2018.06.11-15.47.18:586][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2018.06.11-15.47.18:604][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2018.06.11-15.47.18:640][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2018.06.11-15.47.18:665][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2018.06.11-15.47.18:693][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2018.06.11-15.47.18:722][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Water_M.uasset"
-[2018.06.11-15.47.18:788][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Water_N.uasset"
-[2018.06.11-15.47.18:830][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2018.06.11-15.47.18:888][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2018.06.11-15.47.18:914][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2018.06.11-15.47.18:992][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2018.06.11-15.47.19:045][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2018.06.11-15.47.19:120][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2018.06.11-15.47.19:161][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2018.06.11-15.47.19:241][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2018.06.11-15.47.19:274][177]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2018.06.11-15.47.19:544][177]LogSavePackage: Save=45.25ms
-[2018.06.11-15.47.19:544][177]LogSavePackage: Moving '../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Saved/Floor_400x400432B7502408854948A4633BF532A596F.tmp' to '../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2018.06.11-15.47.19:552][177]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/DasSKander/Documents/Klei/DoNotStarveTogether/APatheticGame3/Content/StarterContent/Architecture/Floor_400x400.uasset
-[2018.06.11-15.48.31:816][744]LogSlate: Window 'Add Content to the Project' being destroyed
+[2018.06.11-22.10.09:436][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.11-22.10.09:436][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.06.11-22.10.09:473][  0]LogInit: Computer: DESKTOP-0HQ24IO
+[2018.06.11-22.10.09:473][  0]LogInit: User: Josh
+[2018.06.11-22.10.09:473][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.06.11-22.10.09:473][  0]LogInit: High frequency timer resolution =2.742189 MHz
+[2018.06.11-22.10.09:474][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.06.11-22.10.09:474][  0]LogMemory: Platform Memory Stats for Windows
+[2018.06.11-22.10.09:474][  0]LogMemory: Process Physical Memory: 273.88 MB used, 273.88 MB peak
+[2018.06.11-22.10.09:474][  0]LogMemory: Process Virtual Memory: 264.70 MB used, 264.70 MB peak
+[2018.06.11-22.10.09:474][  0]LogMemory: Physical Memory: 6062.40 MB used,  2049.44 MB free, 8111.84 MB total
+[2018.06.11-22.10.09:474][  0]LogMemory: Virtual Memory: 4794.23 MB used,  2049.44 MB free, 134217728.00 MB total
+[2018.06.11-22.10.09:489][  0]LogInit: Using OS detected language (en-US).
+[2018.06.11-22.10.09:489][  0]LogInit: Using OS detected locale (en-US).
+[2018.06.11-22.10.09:492][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.06.11-22.10.09:977][  0]LogStreaming: Display: Took  0.488s to EndInitTextLocalization.
+[2018.06.11-22.10.09:977][  0]LogInit: Setting process to per monitor DPI aware
+[2018.06.11-22.10.10:013][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.06.11-22.10.10:013][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.06.11-22.10.10:197][  0]LogD3D11RHI: D3D11 adapters:
+[2018.06.11-22.10.10:255][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2018.06.11-22.10.10:255][  0]LogD3D11RHI:       2009/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.06.11-22.10.10:267][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.06.11-22.10.10:267][  0]LogD3D11RHI:       128/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.06.11-22.10.10:269][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.06.11-22.10.10:269][  0]LogD3D11RHI:       0/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.06.11-22.10.10:269][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.06.11-22.10.10:286][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.06.11-22.10.10:286][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2018.06.11-22.10.10:286][  0]LogWindows: EnumDisplayDevices:
+[2018.06.11-22.10.10:286][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2018.06.11-22.10.10:286][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.06.11-22.10.10:286][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.06.11-22.10.10:287][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.06.11-22.10.10:287][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2018.06.11-22.10.10:287][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.06.11-22.10.10:287][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.06.11-22.10.10:287][  0]LogRHI: Texture pool is 1406 MB (70% of 2009 MB)
+[2018.06.11-22.10.10:322][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
+[2018.06.11-22.10.10:322][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.06.11-22.10.10:322][  0]LogD3D11RHI: Async texture creation enabled
+[2018.06.11-22.10.10:337][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.06.11-22.10.10:338][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../../Users/Josh/Documents/APatheticGame3/Intermediate/Shaders/WorkingDirectory/13036/).
+[2018.06.11-22.10.10:338][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Josh/AppData/Local/Temp/UnrealShaderWorkingDir/D58BC2AE49FA1B9CFCAA1BB8B8339F2F/'.
+[2018.06.11-22.10.10:586][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.06.11-22.10.10:600][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.06.11-22.10.10:613][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.06.11-22.10.10:626][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.06.11-22.10.10:640][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.06.11-22.10.10:654][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.06.11-22.10.10:667][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.06.11-22.10.10:681][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.06.11-22.10.10:687][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.06.11-22.10.10:698][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.06.11-22.10.10:710][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.06.11-22.10.10:720][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.06.11-22.10.10:732][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.06.11-22.10.10:744][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.06.11-22.10.10:755][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.06.11-22.10.10:779][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.06.11-22.10.10:779][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.06.11-22.10.10:791][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.06.11-22.10.10:793][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.06.11-22.10.10:829][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.06.11-22.10.10:839][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.06.11-22.10.10:852][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.06.11-22.10.10:865][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.06.11-22.10.10:876][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.06.11-22.10.10:888][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.06.11-22.10.10:888][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.06.11-22.10.10:999][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.06.11-22.10.10:999][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.06.11-22.10.10:999][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.06.11-22.10.11:731][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.06.11-22.10.12:124][  0]LogDerivedDataCache: Loaded boot cache 0.39s 74MB C:/Users/Josh/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.11-22.10.12:124][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Josh/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.06.11-22.10.12:124][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Josh/Documents/APatheticGame3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.06.11-22.10.12:124][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.06.11-22.10.12:124][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Josh/Documents/APatheticGame3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.06.11-22.10.12:124][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.06.11-22.10.12:140][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.06.11-22.10.12:153][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Josh/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.06.11-22.10.12:153][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.06.11-22.10.12:153][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.06.11-22.10.12:165][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.06.11-22.10.12:165][  0]LogSlate: Using Freetype 2.6.0
+[2018.06.11-22.10.12:188][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.11-22.10.12:188][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.11-22.10.16:713][  0]LogAssetRegistry: FAssetRegistry took 0.0310 seconds to start up
+[2018.06.11-22.10.17:078][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.11-22.10.17:293][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.06.11-22.10.17:295][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.06.11-22.10.17:295][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.06.11-22.10.17:295][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.06.11-22.10.17:295][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.06.11-22.10.17:295][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.06.11-22.10.17:335][  0]LogNetVersion: APatheticGame , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1227650307)
+[2018.06.11-22.10.17:933][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.104994 seconds
+[2018.06.11-22.10.17:940][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.06.11-22.10.17:941][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.06.11-22.10.17:941][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.06.11-22.11.03:935][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.06.11-22.11.03:966][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.06.11-22.11.04:630][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000020e7408d340, Size=64, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.06.11-22.11.04:901][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000020e7408d340, Size=64
+[2018.06.11-22.11.04:901][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000020e7408d340, Size=64, Default__ThirdPerson_AnimBP_C Function /Engine/Transient.REINST_ThirdPerson_AnimBP_C_0:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.06.11-22.11.05:801][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000020e74c42b60, Size=72, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.06.11-22.11.07:740][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000020e74b973c0, Size=200, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.11-22.11.07:815][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000020e7431e880, Size=32, Default__StaminaHUD_C Function /Game/StaminaHUD.StaminaHUD_C:ExecuteUbergraph_StaminaHUD
+[2018.06.11-22.11.08:607][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000020e7431e880, Size=32
+[2018.06.11-22.11.08:607][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000020e7431e880, Size=32, Default__StaminaHUD_C Function /Engine/Transient.REINST_StaminaHUD_C_0:ExecuteUbergraph_StaminaHUD
+[2018.06.11-22.11.08:608][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000020e74b973c0, Size=200
+[2018.06.11-22.11.08:608][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000020e74b956e0, Size=200, Default__ThirdPersonCharacter_C Function /Engine/Transient.REINST_ThirdPersonCharacter_C_4:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.11-22.11.08:907][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000020e75882f40, Size=32, Default__StaminaHUD_C Function /Game/StaminaHUD.StaminaHUD_C:ExecuteUbergraph_StaminaHUD
+[2018.06.11-22.11.08:910][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000020e75873740, Size=200, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.11-22.11.10:900][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [336.133301ms] /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
+[2018.06.11-22.11.11:809][  0]SourceControl: Source control is disabled
+[2018.06.11-22.11.11:810][  0]SourceControl: Source control is disabled
+[2018.06.11-22.11.11:828][  0]SourceControl: Source control is disabled
+[2018.06.11-22.11.11:847][  0]SourceControl: Source control is disabled
+[2018.06.11-22.11.13:102][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.06.11-22.11.13:379][  0]LogOcInput: OculusInput pre-init called
+[2018.06.11-22.11.13:874][  0]LogEngine: Initializing Engine...
+[2018.06.11-22.11.13:875][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.06.11-22.11.13:943][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.11-22.11.13:943][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.11-22.11.15:448][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.06.11-22.11.15:459][  0]LogInit: XAudio2 using 'Headset Earphone (Razer Kraken 7.1 V2)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.11-22.11.15:473][  0]LogInit: FAudioDevice initialized.
+[2018.06.11-22.11.15:769][  0]LogDerivedDataCache: Saved boot cache 0.30s 77MB C:/Users/Josh/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.11-22.11.15:795][  0]LogInit: Texture streaming: Enabled
+[2018.06.11-22.11.15:830][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.06.11-22.11.15:932][  0]LogInit: Transaction tracking system initialized
+[2018.06.11-22.11.15:991][  0]BlueprintLog: New page: Editor Load
+[2018.06.11-22.11.17:251][  0]LocalizationService: Localization service is disabled
+[2018.06.11-22.11.18:896][  0]LogConsoleResponse: Display: 
+[2018.06.11-22.11.21:196][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Josh/Documents/APatheticGame3/Content/' took 0.05s
+[2018.06.11-22.11.21:196][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.06.11-22.11.21:196][  0]LogCook: Display: Mobile HDR setting 1
+[2018.06.11-22.11.21:196][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.06.11-22.11.21:196][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.11-22.11.21:196][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.11-22.11.22:822][  0]SourceControl: Source control is disabled
+[2018.06.11-22.11.23:214][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.06.11-22.11.23:256][  0]LogSlate: Took 0.039769 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.06.11-22.18.12:470][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2018.06.11-22.20.20:304][  0]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
+[2018.06.11-22.20.20:304][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.06.11-22.20.20:324][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.06.11-22.20.21:345][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Josh/Documents/APatheticGame3/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.11-22.20.21:394][  0]LightingResults: New page: Lighting Build
+[2018.06.11-22.20.22:914][  0]MapCheck: New page: Map Check
+[2018.06.11-22.20.22:914][  0]LightingResults: New page: Lighting Build
+[2018.06.11-22.20.24:583][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000020e7408d340, Size=64
+[2018.06.11-22.20.24:612][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000020e74b956e0, Size=200
+[2018.06.11-22.20.24:612][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000020e7431e880, Size=32
+[2018.06.11-22.20.29:165][  0]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2018.06.11-22.20.29:165][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2018.06.11-22.20.29:165][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512)
+[2018.06.11-22.20.29:165][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.06.11-22.20.29:165][  0]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512)
+[2018.06.11-22.20.29:165][  0]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.06.11-22.20.30:543][  0]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32)
+[2018.06.11-22.20.30:544][  0]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 512X256)
+[2018.06.11-22.20.30:544][  0]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2018.06.11-22.20.30:544][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2018.06.11-22.20.30:544][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X1024)
+[2018.06.11-22.20.32:299][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.06.11-22.20.35:950][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.11-22.20.36:378][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.11-22.20.37:893][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1,513.387ms to complete.
+[2018.06.11-22.20.37:917][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 16.625
+[2018.06.11-22.20.43:235][  0]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_3134_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_29b0_0///####STATCAT_Advanced####
+[2018.06.11-22.20.43:235][  0]LogCollectionManager: Loaded 0 collections in 0.002425 seconds
+[2018.06.11-22.20.43:963][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Josh/Documents/APatheticGame3/Saved/Collections/' took 0.01s
+[2018.06.11-22.20.43:963][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Josh/Documents/APatheticGame3/Content/Developers/Josh/Collections/' took 0.01s
+[2018.06.11-22.20.43:963][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Josh/Documents/APatheticGame3/Content/Collections/' took 0.01s
+[2018.06.11-22.20.43:963][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.06.11-22.20.44:031][  0]LogContentBrowser: Native class hierarchy populated in 0.0573 seconds. Added 2458 classes and 560 folders.
+[2018.06.11-22.20.44:345][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2018.06.11-22.20.49:219][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.06.11-22.20.49:415][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.06.11-22.20.51:553][  0]LogSlate: Took 0.061102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.06.11-22.20.52:047][  0]LogSlate: Took 0.272789 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.06.11-22.20.53:863][  0]LogRenderer: Reallocating scene render targets to support 724x476 Format 10 NumSamples 1 (Frame:1).
+[2018.06.11-22.21.02:654][  0]LogSlate: Took 0.034839 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.06.11-22.21.03:051][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.06.11-22.21.03:051][  0]LogLoad: (Engine Initialization) Total time: 657.52 seconds
+[2018.06.11-22.21.03:051][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.06.11-22.21.04:423][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.06.11-22.21.06:167][  4]LogAssetRegistry: Asset discovery search completed in 649.4762 seconds
+[2018.06.11-22.21.06:218][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.06.11-22.21.06:218][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.014536 seconds (updated 0 objects)
+[2018.06.11-22.21.11:479][ 18]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.11-22.21.13:776][206]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.11-22.21.13:839][206]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.11-22.21.13:914][206]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.11-22.21.14:330][206]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 11, 2018, 2:21:14 PM)
+[2018.06.11-22.21.14:342][206]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.06.11-22.21.14:609][206]LogPlayLevel: PIE: StaticDuplicateObject took: (0.266937s)
+[2018.06.11-22.21.14:610][206]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.06.11-22.21.14:626][206]LogPlayLevel: PIE: World Init took: (0.017126s)
+[2018.06.11-22.21.14:626][206]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.284563s)
+[2018.06.11-22.21.14:708][206]LogInit: XAudio2 using 'Headset Earphone (Razer Kraken 7.1 V2)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.11-22.21.14:755][206]LogInit: FAudioDevice initialized.
+[2018.06.11-22.21.14:892][206]LogLoad: Game class is 'APatheticGameGameMode'
+[2018.06.11-22.21.15:123][206]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.06.11-18.21.15
+[2018.06.11-22.21.15:287][206]LogWorld: Bringing up level for play took: 0.201315
+[2018.06.11-22.21.15:869][206]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0024 seconds. Added 11 classes and 0 folders.
+[2018.06.11-22.21.16:168][206]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 2.056
+[2018.06.11-22.21.16:168][206]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.11-22.21.27:425][131]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.11-22.21.28:106][131]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
