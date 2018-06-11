@@ -18,7 +18,7 @@ UMoveObject::UMoveObject()
 void UMoveObject::BeginPlay()
 {
 	Super::BeginPlay();
-
+	UE_LOG(LogTemp, Warning, TEXT("JT_test"));
 	// ...
 	
 }
@@ -30,5 +30,20 @@ void UMoveObject::TickComponent(float DeltaTime, ELevelTick TickType, FActorComp
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	// ...
+}
+
+void UMoveObject::PushObject()
+{
+
+
+}
+
+void UMoveObject::TurnObject()
+{
+}
+
+const FHitResult UMoveObject::GetFirstPhysicsBodyInReach()
+{
+	return FHitResult();
 }
 
