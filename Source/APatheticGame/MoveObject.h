@@ -5,6 +5,11 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "GameFramework/Actor.h"
+#include "PhysicsEngine/PhysicsHandleComponent.h"
+#include "Components/InputComponent.h"
+#include "Engine/EngineTypes.h"
+#include "DrawDebugHelpers.h"
+#include "CollisionQueryParams.h"
 #include "MoveObject.generated.h"
 
 
@@ -29,4 +34,7 @@ private:
 	void PushObject();
 	void TurnObject();
 
+	UInputComponent* InputComponent = nullptr;
+	UPhysicsHandleComponent* PhysicsHandle = nullptr;
+	const FHitResult GetFirstPhysicsBodyInReach();
 };

@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\APatheticGame.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{E058D8A9-693C-4041-B314-8478BCCA3EDE}</UniqueIdentifier>
+			<UniqueIdentifier>{C900ED03-88C9-4678-9D18-0F3C7FFA682F}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\APatheticGame.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{D358802C-1B56-4583-BB51-F10DB4DF5AFE}</UniqueIdentifier>
+			<UniqueIdentifier>{870C59AD-A01E-42B6-A437-28C5EA7F1E4F}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\APatheticGame">
-			<UniqueIdentifier>{827EA93E-1C64-43F0-960D-CA07CF88DE91}</UniqueIdentifier>
+			<UniqueIdentifier>{D96BD901-5F72-460B-A94F-D52DDCC716EA}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\APatheticGame\APatheticGame.Build.cs">
 			<Filter>Source\APatheticGame</Filter>
@@ -52,6 +52,18 @@
 			<Filter>Source\APatheticGame</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\APatheticGame\APatheticGameGameMode.h">
+			<Filter>Source\APatheticGame</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\APatheticGame\MoveObject.cpp">
+			<Filter>Source\APatheticGame</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\APatheticGame\MoveObject.h">
+			<Filter>Source\APatheticGame</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\APatheticGame\TestHere.cpp">
+			<Filter>Source\APatheticGame</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\APatheticGame\TestHere.h">
 			<Filter>Source\APatheticGame</Filter>
 		</ClInclude >
 	</ItemGroup>

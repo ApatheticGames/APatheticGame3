@@ -32,3 +32,18 @@ void UMoveObject::TickComponent(float DeltaTime, ELevelTick TickType, FActorComp
 	// ...
 }
 
+void UMoveObject::PushObject()
+{
+
+
+}
+
+void UMoveObject::TurnObject()
+{
+}
+
+const FHitResult UMoveObject::GetFirstPhysicsBodyInReach()
+{
+	return FHitResult();
+}
+
