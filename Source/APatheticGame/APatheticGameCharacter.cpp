@@ -29,9 +29,11 @@ AAPatheticGameCharacter::AAPatheticGameCharacter()
 	// Configure character movement
 	GetCharacterMovement()->bOrientRotationToMovement = true; // Character moves in the direction of input...	
 	GetCharacterMovement()->RotationRate = FRotator(0.0f, 540.0f, 0.0f); // ...at this rotation rate
-	GetCharacterMovement()->JumpZVelocity = 600.f;
-	GetCharacterMovement()->AirControl = 0.2f;
-
+	GetCharacterMovement()->JumpZVelocity = 320.f;
+	GetCharacterMovement()->AirControl = 0.0f;
+	GetCharacterMovement()->MaxWalkSpeed = 300.0f;
+	
+	
 	// Create a camera boom (pulls in towards the player if there is a collision)
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->SetupAttachment(RootComponent);
@@ -56,6 +58,8 @@ void AAPatheticGameCharacter::SetupPlayerInputComponent(class UInputComponent* P
 	check(PlayerInputComponent);
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+	
+
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AAPatheticGameCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AAPatheticGameCharacter::MoveRight);
@@ -68,6 +72,7 @@ void AAPatheticGameCharacter::SetupPlayerInputComponent(class UInputComponent* P
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &AAPatheticGameCharacter::LookUpAtRate);
 
+	PlayerInputComponent->BindAction("Crouch", IE_Pressed, this, &AAPatheticGameCharacter::ToggleCrouch);
 	// handle touch devices
 	PlayerInputComponent->BindTouch(IE_Pressed, this, &AAPatheticGameCharacter::TouchStarted);
 	PlayerInputComponent->BindTouch(IE_Released, this, &AAPatheticGameCharacter::TouchStopped);
@@ -131,4 +136,20 @@ void AAPatheticGameCharacter::MoveRight(float Value)
 		// add movement in that direction
 		AddMovementInput(Direction, Value);
 	}
+}
+
+void AAPatheticGameCharacter::ToggleCrouch()
+{
+	if (GetCharacterMovement()->IsCrouching())
+	{
+		UnCrouch();
+
+	}
+	else
+	{
+		Crouch();
+		GetCharacterMovement()->GetNavAgentPropertiesRef().bCanCrouch = true;
+
+	}
+
 }
