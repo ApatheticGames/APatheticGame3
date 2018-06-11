@@ -18,7 +18,7 @@ UMoveObject::UMoveObject()
 void UMoveObject::BeginPlay()
 {
 	Super::BeginPlay();
-	UE_LOG(LogTemp, Warning, TEXT("test"));
+	UE_LOG(LogTemp, Warning, TEXT("josh_test"));
 	// ...
 	
 }
