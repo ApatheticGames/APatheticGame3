@@ -1,7 +1,9 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "OpenDahDoor.h"
-
+#include "GameFramework/Actor.h"
+#include "DrawDebugHelpers.h"
+#include "CollisionQueryParams.h"
 
 // Sets default values for this component's properties
 UOpenDahDoor::UOpenDahDoor()
@@ -18,6 +20,8 @@ UOpenDahDoor::UOpenDahDoor()
 void UOpenDahDoor::BeginPlay()
 {
 	Super::BeginPlay();
+
+	InputComponent = GetOwner()->FindComponentByClass<UInputComponent>();
 
 	// ...
 	

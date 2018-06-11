@@ -31,5 +31,5 @@ private:
 		ATriggerVolume* OpenDoor;
 	UPROPERTY(VisibleAnywhere)
 		float OpenAngle = 76.0f;
-	
+
 };
