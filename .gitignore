@@ -23,3 +23,5 @@ Binaries/Win64/UE4Editor.modules
 .vs/APatheticGame/v15/.suo
 .vs/APatheticGame/v15/.suo
 Binaries/Win64/UE4Editor.modules
+Binaries/*
+Saved/Backup/*
