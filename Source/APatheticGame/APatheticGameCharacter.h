@@ -21,6 +21,7 @@ enum class AbilityInput : uint8
 													 //Because abilities are granted by input ID, which is an int, you may use enum elements to describe the ID anyway however, because enums are fancily dressed up ints.
 };
 
+
 UCLASS(config=Game)
 class AAPatheticGameCharacter : public ACharacter, public IAbilitySystemInterface
 {
@@ -42,6 +43,7 @@ class AAPatheticGameCharacter : public ACharacter, public IAbilitySystemInterfac
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Abilities, meta = (AllowPrivateAccess = "true"))
 	class UAbilitySystemComponent* AbilitySystem;
 public:
+
 	AAPatheticGameCharacter();
 
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
@@ -53,7 +55,8 @@ public:
 	float BaseLookUpRate;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Abilities)
-		TSubclassOf<class UGameplayAbility> Ability;
+	TSubclassOf<class UGameplayAbility> Ability;
+
 protected:
 
 
@@ -103,4 +106,6 @@ public:
 
 
 };
+
+
 
