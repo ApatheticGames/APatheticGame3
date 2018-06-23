@@ -36,6 +36,66 @@
 			"IsPrecompiled": true
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Runtime/GameplayAbilities/Binaries/Win64/UE4Editor-GameplayAbilities.dll",
+			"Type": "DynamicLibrary",
+			"IsPrecompiled": true
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/GameplayAbilities/Binaries/Win64/UE4Editor-GameplayAbilities.pdb",
+			"Type": "SymbolFile",
+			"IsPrecompiled": true
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/GameplayAbilities/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-GameplayAbilities.lib",
+			"Type": "ImportLibrary",
+			"IsPrecompiled": true
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/GameplayAbilities/Binaries/Win64/UE4Editor-GameplayAbilitiesEditor.dll",
+			"Type": "DynamicLibrary",
+			"IsPrecompiled": true
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/GameplayAbilities/Binaries/Win64/UE4Editor-GameplayAbilitiesEditor.pdb",
+			"Type": "SymbolFile",
+			"IsPrecompiled": true
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/GameplayAbilities/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-GameplayAbilitiesEditor.lib",
+			"Type": "ImportLibrary",
+			"IsPrecompiled": true
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll",
+			"Type": "DynamicLibrary",
+			"IsPrecompiled": true
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.pdb",
+			"Type": "SymbolFile",
+			"IsPrecompiled": true
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/GameplayTagsEditor/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-GameplayTagsEditor.lib",
+			"Type": "ImportLibrary",
+			"IsPrecompiled": true
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll",
+			"Type": "DynamicLibrary",
+			"IsPrecompiled": true
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.pdb",
+			"Type": "SymbolFile",
+			"IsPrecompiled": true
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/AssetManagerEditor/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-AssetManagerEditor.lib",
+			"Type": "ImportLibrary",
+			"IsPrecompiled": true
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll",
 			"Type": "DynamicLibrary",
 			"IsPrecompiled": true
@@ -246,21 +306,6 @@
 			"IsPrecompiled": true
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll",
-			"Type": "DynamicLibrary",
-			"IsPrecompiled": true
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.pdb",
-			"Type": "SymbolFile",
-			"IsPrecompiled": true
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/AssetManagerEditor/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-AssetManagerEditor.lib",
-			"Type": "ImportLibrary",
-			"IsPrecompiled": true
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll",
 			"Type": "DynamicLibrary",
 			"IsPrecompiled": true
@@ -332,21 +377,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Editor/FacialAnimation/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-FacialAnimationEditor.lib",
-			"Type": "ImportLibrary",
-			"IsPrecompiled": true
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll",
-			"Type": "DynamicLibrary",
-			"IsPrecompiled": true
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.pdb",
-			"Type": "SymbolFile",
-			"IsPrecompiled": true
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/GameplayTagsEditor/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-GameplayTagsEditor.lib",
 			"Type": "ImportLibrary",
 			"IsPrecompiled": true
 		},
@@ -5927,6 +5957,18 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Runtime/GameplayAbilities/GameplayAbilities.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/GameplayTagsEditor/GameplayTagsEditor.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/AssetManagerEditor/AssetManagerEditor.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/2D/Paper2D/Paper2D.uplugin",
 			"Type": "UFS"
 		},
@@ -5963,10 +6005,6 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Editor/AssetManagerEditor/AssetManagerEditor.uplugin",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Editor/CryptoKeys/CryptoKeys.uplugin",
 			"Type": "UFS"
 		},
@@ -5976,10 +6014,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Editor/FacialAnimation/FacialAnimation.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/GameplayTagsEditor/GameplayTagsEditor.uplugin",
 			"Type": "UFS"
 		},
 		{
