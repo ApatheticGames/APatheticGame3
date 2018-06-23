@@ -1,4 +1,4 @@
-﻿Log file open, 06/23/18 08:36:22
+﻿Log file open, 06/23/18 10:33:46
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: APatheticGame
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1510295274) SRandInit(1510295274).
+LogInit: Display: RandInit(-154428837) SRandInit(-154428837).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.160238
+LogStats: Stats thread started at 0.159827
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -84,7 +84,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.311s to configure plugins.
+LogStreaming: Display: Took  0.352s to configure plugins.
 LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Binaries/Win64/UE4Editor-APatheticGame.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
@@ -217,448 +217,830 @@ LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.19
-LogInit: Command Line: -EpicPortal 
+LogInit: Command Line:  
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogStreaming: Display: Took  0.003s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.06.23-12.36.24:026][  0]LogInit: Selected Device Profile: [Windows]
-[2018.06.23-12.36.24:026][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.06.23-12.36.24:086][  0]LogInit: Computer: SLASSER
-[2018.06.23-12.36.24:086][  0]LogInit: User: DasSKander
-[2018.06.23-12.36.24:086][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.06.23-12.36.24:086][  0]LogInit: High frequency timer resolution =3.422070 MHz
-[2018.06.23-12.36.24:087][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2018.06.23-12.36.24:087][  0]LogMemory: Platform Memory Stats for Windows
-[2018.06.23-12.36.24:087][  0]LogMemory: Process Physical Memory: 276.19 MB used, 276.19 MB peak
-[2018.06.23-12.36.24:087][  0]LogMemory: Process Virtual Memory: 270.75 MB used, 270.75 MB peak
-[2018.06.23-12.36.24:087][  0]LogMemory: Physical Memory: 7881.27 MB used,  8460.79 MB free, 16342.06 MB total
-[2018.06.23-12.36.24:087][  0]LogMemory: Virtual Memory: 636.68 MB used,  8460.79 MB free, 8388608.00 MB total
-[2018.06.23-12.36.24:113][  0]LogInit: Using OS detected language (en-US).
-[2018.06.23-12.36.24:113][  0]LogInit: Using OS detected locale (en-US).
-[2018.06.23-12.36.24:117][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.06.23-12.36.24:539][  0]LogStreaming: Display: Took  0.426s to EndInitTextLocalization.
-[2018.06.23-12.36.24:540][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
-[2018.06.23-12.36.24:540][  0]LogWindows: File 'shcore.dll' does not exist
-[2018.06.23-12.36.24:540][  0]LogInit: Setting process to DPI aware
-[2018.06.23-12.36.24:557][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
-[2018.06.23-12.36.24:557][  0]LogWindows: File 'shcore.dll' does not exist
-[2018.06.23-12.36.24:557][  0]LogInit: Setting process to DPI aware
-[2018.06.23-12.36.24:583][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.06.23-12.36.24:583][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.06.23-12.36.24:758][  0]LogD3D11RHI: D3D11 adapters:
-[2018.06.23-12.36.24:784][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.06.23-12.36.24:784][  0]LogD3D11RHI:       8085/0/7915 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.06.23-12.36.24:784][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.06.23-12.36.24:790][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.06.23-12.36.24:790][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2018.06.23-12.36.24:790][  0]LogWindows: EnumDisplayDevices:
-[2018.06.23-12.36.24:790][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2018.06.23-12.36.24:791][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.06.23-12.36.24:791][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.06.23-12.36.24:791][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.06.23-12.36.24:791][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
-[2018.06.23-12.36.24:791][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2018.06.23-12.36.24:791][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
-[2018.06.23-12.36.24:791][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2018.06.23-12.36.24:791][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.06.23-12.36.24:791][  0]LogD3D11RHI:   Driver Version: 388.71 (internal:23.21.13.8871, unified:388.71)
-[2018.06.23-12.36.24:791][  0]LogD3D11RHI:      Driver Date: 12-15-2017
-[2018.06.23-12.36.24:791][  0]LogRHI: Texture pool is 5659 MB (70% of 8085 MB)
-[2018.06.23-12.36.24:800][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.06.23-12.36.24:800][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.06.23-12.36.24:800][  0]LogD3D11RHI: Async texture creation enabled
-[2018.06.23-12.36.24:815][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.06.23-12.36.24:862][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Intermediate/Shaders/WorkingDirectory/13860/).
-[2018.06.23-12.36.24:863][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/DasSKander/AppData/Local/Temp/UnrealShaderWorkingDir/C05D9DEC4DB9A6920C79D1B79889B809/'.
-[2018.06.23-12.36.25:046][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.06.23-12.36.25:059][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.06.23-12.36.25:073][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.06.23-12.36.25:085][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.06.23-12.36.25:098][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.06.23-12.36.25:111][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.06.23-12.36.25:125][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.06.23-12.36.25:138][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.06.23-12.36.25:145][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.06.23-12.36.25:156][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.06.23-12.36.25:167][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.06.23-12.36.25:179][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.06.23-12.36.25:191][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.06.23-12.36.25:202][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.06.23-12.36.25:213][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.06.23-12.36.25:237][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.06.23-12.36.25:237][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.06.23-12.36.25:248][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.06.23-12.36.25:249][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.06.23-12.36.25:284][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.06.23-12.36.25:296][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.06.23-12.36.25:307][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.06.23-12.36.25:317][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.06.23-12.36.25:329][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.06.23-12.36.25:341][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.06.23-12.36.25:341][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.06.23-12.36.25:440][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.06.23-12.36.25:440][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.06.23-12.36.25:440][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.06.23-12.36.26:080][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.06.23-12.36.26:215][  0]LogDerivedDataCache: Loaded boot cache 0.13s 151MB C:/Users/DasSKander/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.06.23-12.36.26:215][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/DasSKander/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.06.23-12.36.26:215][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.06.23-12.36.26:215][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.06.23-12.36.26:215][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.06.23-12.36.26:215][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.06.23-12.36.26:231][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.06.23-12.36.26:294][  0]LogDerivedDataCache: Using Local data cache path C:/Users/DasSKander/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.06.23-12.36.26:294][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.06.23-12.36.26:294][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.06.23-12.36.26:320][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.06.23-12.36.26:320][  0]LogSlate: Using Freetype 2.6.0
-[2018.06.23-12.36.26:321][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.06.23-12.36.26:321][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.06.23-12.36.26:447][  0]LogAssetRegistry: FAssetRegistry took 0.0242 seconds to start up
-[2018.06.23-12.36.26:738][  0]LogInit: Selected Device Profile: [Windows]
-[2018.06.23-12.36.26:891][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.06.23-12.36.26:894][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.06.23-12.36.26:894][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.06.23-12.36.26:894][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.06.23-12.36.26:894][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.06.23-12.36.26:894][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.06.23-12.36.26:928][  0]LogNetVersion: APatheticGame , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1227650307)
-[2018.06.23-12.36.29:333][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 2.015065 seconds
-[2018.06.23-12.36.29:342][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.06.23-12.36.29:342][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
-[2018.06.23-12.36.29:342][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.06.23-12.36.30:929][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.06.23-12.36.30:956][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.06.23-12.36.31:332][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004a8a0b80, Size=304, Default__Shinbi_AnimBlueprint_C Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
-[2018.06.23-12.36.31:334][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004b7c4a00, Size=368, Default__ShinbiPlayerCharacter_C Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/ShinbiPlayerCharacter.ShinbiPlayerCharacter_C:ExecuteUbergraph_ShinbiPlayerCharacter
-[2018.06.23-12.36.31:809][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004a8a0b80, Size=304
-[2018.06.23-12.36.31:809][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004cfee980, Size=304, Default__Shinbi_AnimBlueprint_C Function /Engine/Transient.REINST_Shinbi_AnimBlueprint_C_0:ExecuteUbergraph_Shinbi_AnimBlueprint
-[2018.06.23-12.36.31:810][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004b7c4a00, Size=368
-[2018.06.23-12.36.31:810][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004a81b580, Size=368, Default__ShinbiPlayerCharacter_C Function /Engine/Transient.REINST_ShinbiPlayerCharacter_C_3:ExecuteUbergraph_ShinbiPlayerCharacter
-[2018.06.23-12.36.31:832][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004db7a340, Size=304, Default__Shinbi_AnimBlueprint_C Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
-[2018.06.23-12.36.31:835][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004b7c4700, Size=368, Default__ShinbiPlayerCharacter_C Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/ShinbiPlayerCharacter.ShinbiPlayerCharacter_C:ExecuteUbergraph_ShinbiPlayerCharacter
-[2018.06.23-12.36.31:854][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004dadf380, Size=592, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
-[2018.06.23-12.36.31:860][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004cba94e8, Size=4, Default__Item_C Function /Game/InventorySystem/Items/Item.Item_C:ExecuteUbergraph_Item
-[2018.06.23-12.36.31:868][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004dabb4a0, Size=32, Default__InventoryWindow_C Function /Game/InventorySystem/InventoryUI/InventoryWindow.InventoryWindow_C:ExecuteUbergraph_InventoryWindow
-[2018.06.23-12.36.31:911][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004cbaac20, Size=4, Default__BP_MasterItem_C Function /Game/InventorySystem2/Blueprints/ItemClasses/BP_MasterItem.BP_MasterItem_C:ExecuteUbergraph_BP_MasterItem
-[2018.06.23-12.36.31:918][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004cbaa778, Size=4, Default__BP_Inventory_C Function /Game/InventorySystem2/Blueprints/BP_Inventory.BP_Inventory_C:ExecuteUbergraph_BP_Inventory
-[2018.06.23-12.36.31:927][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004daba3e0, Size=32, Default__StaminaHUD_C Function /Game/StaminaHUD.StaminaHUD_C:ExecuteUbergraph_StaminaHUD
-[2018.06.23-12.36.31:961][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004cbaa778, Size=4
-[2018.06.23-12.36.31:961][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004e3ab9b0, Size=4, Default__BP_Inventory_C Function /Engine/Transient.REINST_BP_Inventory_C_8:ExecuteUbergraph_BP_Inventory
-[2018.06.23-12.36.31:961][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004cbaac20, Size=4
-[2018.06.23-12.36.31:961][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004e3ab998, Size=4, Default__BP_MasterItem_C Function /Engine/Transient.REINST_BP_MasterItem_C_9:ExecuteUbergraph_BP_MasterItem
-[2018.06.23-12.36.31:962][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004cba94e8, Size=4
-[2018.06.23-12.36.31:962][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004e3ab988, Size=4, Default__Item_C Function /Engine/Transient.REINST_Item_C_11:ExecuteUbergraph_Item
-[2018.06.23-12.36.31:962][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004dabb4a0, Size=32
-[2018.06.23-12.36.31:962][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004e36ff00, Size=32, Default__InventoryWindow_C Function /Engine/Transient.REINST_InventoryWindow_C_2:ExecuteUbergraph_InventoryWindow
-[2018.06.23-12.36.31:962][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004daba3e0, Size=32
-[2018.06.23-12.36.31:962][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004e36fe20, Size=32, Default__StaminaHUD_C Function /Engine/Transient.REINST_StaminaHUD_C_3:ExecuteUbergraph_StaminaHUD
-[2018.06.23-12.36.31:963][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004dadf380, Size=592
-[2018.06.23-12.36.31:963][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004e735300, Size=592, Default__ThirdPersonCharacter_C Function /Engine/Transient.REINST_ThirdPersonCharacter_C_12:ExecuteUbergraph_ThirdPersonCharacter
-[2018.06.23-12.36.31:990][  0]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Input Axis Event references unknown Axis 'MoveUP' for  InputAxis MoveUP
-[2018.06.23-12.36.31:990][  0]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] InputAction Event references unknown Action 'Attack' for  InputAction Attack
-[2018.06.23-12.36.31:994][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004e3aa6d8, Size=4, Default__BP_Inventory_C Function /Game/InventorySystem2/Blueprints/BP_Inventory.BP_Inventory_C:ExecuteUbergraph_BP_Inventory
-[2018.06.23-12.36.31:995][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004e3aa4c0, Size=4, Default__BP_MasterItem_C Function /Game/InventorySystem2/Blueprints/ItemClasses/BP_MasterItem.BP_MasterItem_C:ExecuteUbergraph_BP_MasterItem
-[2018.06.23-12.36.31:995][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004e3aa498, Size=4, Default__Item_C Function /Game/InventorySystem/Items/Item.Item_C:ExecuteUbergraph_Item
-[2018.06.23-12.36.31:996][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004e234460, Size=32, Default__InventoryWindow_C Function /Game/InventorySystem/InventoryUI/InventoryWindow.InventoryWindow_C:ExecuteUbergraph_InventoryWindow
-[2018.06.23-12.36.31:997][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004e1afce0, Size=32, Default__StaminaHUD_C Function /Game/StaminaHUD.StaminaHUD_C:ExecuteUbergraph_StaminaHUD
-[2018.06.23-12.36.32:000][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004e1f9080, Size=592, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
-[2018.06.23-12.36.32:003][  0]LogClass: Warning: Property ItemInfo of ItemInfo has a struct type mismatch (tag ItemStructure != prop ItemInfo) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
-[2018.06.23-12.36.32:007][  0]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] [0011.45] Compile of ThirdPersonCharacter successful, but with 2 Warning(s) [in 67 ms] (/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
-[2018.06.23-12.36.32:287][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [29.481863ms] /Game/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi.Shinbi
-[2018.06.23-12.36.32:478][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [38.448074ms] /Game/ParagonShinbi/Characters/Heroes/Shinbi/Skins/Tier_1/Shinbi_Jade/Meshes/ShinbiJade.ShinbiJade
-[2018.06.23-12.36.32:670][  0]SourceControl: Source control is disabled
-[2018.06.23-12.36.32:670][  0]SourceControl: Source control is disabled
-[2018.06.23-12.36.32:686][  0]SourceControl: Source control is disabled
-[2018.06.23-12.36.32:702][  0]SourceControl: Source control is disabled
-[2018.06.23-12.36.33:185][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.06.23-12.36.33:343][  0]LogOcInput: OculusInput pre-init called
-[2018.06.23-12.36.33:442][  0]LogEngine: Initializing Engine...
-[2018.06.23-12.36.33:443][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.06.23-12.36.33:445][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.06.23-12.36.33:445][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.06.23-12.36.33:671][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.06.23-12.36.33:692][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.23-12.36.33:703][  0]LogInit: FAudioDevice initialized.
-[2018.06.23-12.36.35:355][  0]LogDerivedDataCache: Saved boot cache 1.65s 164MB C:/Users/DasSKander/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.06.23-12.36.35:397][  0]LogInit: Texture streaming: Enabled
-[2018.06.23-12.36.35:417][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.06.23-12.36.35:427][  0]LogInit: Transaction tracking system initialized
-[2018.06.23-12.36.35:449][  0]BlueprintLog: New page: Editor Load
-[2018.06.23-12.36.35:664][  0]LocalizationService: Localization service is disabled
-[2018.06.23-12.36.35:762][  0]LogConsoleResponse: Display: 
-[2018.06.23-12.36.35:922][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.06.23-12.36.35:922][  0]LogCook: Display: Mobile HDR setting 1
-[2018.06.23-12.36.35:922][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.06.23-12.36.35:922][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.06.23-12.36.35:922][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.06.23-12.36.36:243][  0]LogFileCache: Scanning file cache for directory 'C:/Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/' took 0.03s
-[2018.06.23-12.36.36:243][  0]SourceControl: Source control is disabled
-[2018.06.23-12.36.36:243][  0]Cmd: MAP LOAD FILE="../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.06.23-12.36.36:244][  0]LightingResults: New page: Lighting Build
-[2018.06.23-12.36.36:246][  0]MapCheck: New page: Map Check
-[2018.06.23-12.36.36:246][  0]LightingResults: New page: Lighting Build
-[2018.06.23-12.36.36:259][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004cfee980, Size=304
-[2018.06.23-12.36.36:259][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004a81b580, Size=368
-[2018.06.23-12.36.36:259][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004e735300, Size=592
-[2018.06.23-12.36.36:259][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004e3ab988, Size=4
-[2018.06.23-12.36.36:259][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004e36ff00, Size=32
-[2018.06.23-12.36.36:259][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004e3ab998, Size=4
-[2018.06.23-12.36.36:259][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004e3ab9b0, Size=4
-[2018.06.23-12.36.36:259][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004e36fe20, Size=32
-[2018.06.23-12.36.36:338][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004cfa82c0, Size=416, Default__CopyDoorDesu1_C Function /Game/CopyDoorDesu1.CopyDoorDesu1_C:ExecuteUbergraph_CopyDoorDesu1
-[2018.06.23-12.36.36:341][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004cfa82c0, Size=416
-[2018.06.23-12.36.36:341][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004cfa82c0, Size=416, Default__CopyDoorDesu1_C Function /Engine/Transient.REINST_CopyDoorDesu1_C_24:ExecuteUbergraph_CopyDoorDesu1
-[2018.06.23-12.36.36:344][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004e708640, Size=416, Default__CopyDoorDesu1_C Function /Game/CopyDoorDesu1.CopyDoorDesu1_C:ExecuteUbergraph_CopyDoorDesu1
-[2018.06.23-12.36.36:357][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004e709440, Size=416, Default__DoorDesu_C Function /Game/DoorDesu.DoorDesu_C:ExecuteUbergraph_DoorDesu
-[2018.06.23-12.36.36:360][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004e709440, Size=416
-[2018.06.23-12.36.36:360][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004e709440, Size=416, Default__DoorDesu_C Function /Engine/Transient.REINST_DoorDesu_C_26:ExecuteUbergraph_DoorDesu
-[2018.06.23-12.36.36:363][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000058b8c800, Size=416, Default__DoorDesu_C Function /Game/DoorDesu.DoorDesu_C:ExecuteUbergraph_DoorDesu
-[2018.06.23-12.36.36:367][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004d5fbaa0, Size=4, Default__Item_Cube_C Function /Game/InventorySystem/Items/Item.Item_C:ExecuteUbergraph_Item
-[2018.06.23-12.36.36:369][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004d5fbaa0, Size=4
-[2018.06.23-12.36.36:369][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004d5fbaa0, Size=4, Default__Item_Cube_C Function /Game/InventorySystem/Items/Item.Item_C:ExecuteUbergraph_Item
-[2018.06.23-12.36.36:369][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004d5fb900, Size=4, Default__Item_Cube_C Function /Game/InventorySystem/Items/Item.Item_C:ExecuteUbergraph_Item
-[2018.06.23-12.36.36:376][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004e3d25c0, Size=208, Default__BP_PIckUpActor_C Function /Game/InventorySystem2/Blueprints/ItemClasses/BP_PIckUpActor.BP_PIckUpActor_C:ExecuteUbergraph_BP_PIckUpActor
-[2018.06.23-12.36.36:378][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004e3d25c0, Size=208
-[2018.06.23-12.36.36:379][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004e3d25c0, Size=208, Default__BP_PIckUpActor_C Function /Engine/Transient.REINST_BP_PIckUpActor_C_29:ExecuteUbergraph_BP_PIckUpActor
-[2018.06.23-12.36.36:380][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004da5b580, Size=208, Default__BP_PIckUpActor_C Function /Game/InventorySystem2/Blueprints/ItemClasses/BP_PIckUpActor.BP_PIckUpActor_C:ExecuteUbergraph_BP_PIckUpActor
-[2018.06.23-12.36.36:384][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004d5fbc50, Size=4, Default__HealthPot_C Function /Game/InventorySystem2/Blueprints/ItemClasses/BP_MasterItem.BP_MasterItem_C:ExecuteUbergraph_BP_MasterItem
-[2018.06.23-12.36.36:386][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004d5fbc50, Size=4
-[2018.06.23-12.36.36:386][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004d5fbc50, Size=4, Default__HealthPot_C Function /Game/InventorySystem2/Blueprints/ItemClasses/BP_MasterItem.BP_MasterItem_C:ExecuteUbergraph_BP_MasterItem
-[2018.06.23-12.36.36:386][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004d5fbbb8, Size=4, Default__HealthPot_C Function /Game/InventorySystem2/Blueprints/ItemClasses/BP_MasterItem.BP_MasterItem_C:ExecuteUbergraph_BP_MasterItem
-[2018.06.23-12.36.36:390][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004d5f8f30, Size=4, Default__Map_C Function /Game/InventorySystem2/Blueprints/ItemClasses/BP_MasterItem.BP_MasterItem_C:ExecuteUbergraph_BP_MasterItem
-[2018.06.23-12.36.36:392][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004d5f8f30, Size=4
-[2018.06.23-12.36.36:392][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004d5f8f30, Size=4, Default__Map_C Function /Game/InventorySystem2/Blueprints/ItemClasses/BP_MasterItem.BP_MasterItem_C:ExecuteUbergraph_BP_MasterItem
-[2018.06.23-12.36.36:392][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004d5f8ed8, Size=4, Default__Map_C Function /Game/InventorySystem2/Blueprints/ItemClasses/BP_MasterItem.BP_MasterItem_C:ExecuteUbergraph_BP_MasterItem
-[2018.06.23-12.36.36:397][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004db1b820, Size=224, Default__MoveAbleObject_C Function /Game/MoveAbleObject.MoveAbleObject_C:ExecuteUbergraph_MoveAbleObject
-[2018.06.23-12.36.36:401][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004db1b820, Size=224
-[2018.06.23-12.36.36:401][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004dbdda60, Size=224, Default__MoveAbleObject_C Function /Engine/Transient.REINST_MoveAbleObject_C_33:ExecuteUbergraph_MoveAbleObject
-[2018.06.23-12.36.36:403][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004dbdfc80, Size=224, Default__MoveAbleObject_C Function /Game/MoveAbleObject.MoveAbleObject_C:ExecuteUbergraph_MoveAbleObject
-[2018.06.23-12.36.36:408][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000021d68330, Size=112, Default__SM_Door_Blueprint1_C Function /Game/SM_Door_Blueprint1.SM_Door_Blueprint1_C:ExecuteUbergraph_SM_Door_Blueprint1
-[2018.06.23-12.36.36:411][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000000021d68330, Size=112
-[2018.06.23-12.36.36:411][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000021d68330, Size=112, Default__SM_Door_Blueprint1_C Function /Engine/Transient.REINST_SM_Door_Blueprint1_C_35:ExecuteUbergraph_SM_Door_Blueprint1
-[2018.06.23-12.36.36:415][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004e82b7b0, Size=112, Default__SM_Door_Blueprint1_C Function /Game/SM_Door_Blueprint1.SM_Door_Blueprint1_C:ExecuteUbergraph_SM_Door_Blueprint1
-[2018.06.23-12.36.36:581][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.06.23-12.36.36:587][  0]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+[2018.06.23-14.33.48:475][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.23-14.33.48:475][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.06.23-14.33.48:534][  0]LogInit: Computer: SLASSER
+[2018.06.23-14.33.48:534][  0]LogInit: User: DasSKander
+[2018.06.23-14.33.48:534][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.06.23-14.33.48:534][  0]LogInit: High frequency timer resolution =3.422070 MHz
+[2018.06.23-14.33.48:535][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.06.23-14.33.48:535][  0]LogMemory: Platform Memory Stats for Windows
+[2018.06.23-14.33.48:535][  0]LogMemory: Process Physical Memory: 276.19 MB used, 276.19 MB peak
+[2018.06.23-14.33.48:535][  0]LogMemory: Process Virtual Memory: 270.77 MB used, 270.77 MB peak
+[2018.06.23-14.33.48:535][  0]LogMemory: Physical Memory: 6107.44 MB used,  10234.62 MB free, 16342.06 MB total
+[2018.06.23-14.33.48:535][  0]LogMemory: Virtual Memory: 636.68 MB used,  10234.62 MB free, 8388608.00 MB total
+[2018.06.23-14.33.48:560][  0]LogInit: Using OS detected language (en-US).
+[2018.06.23-14.33.48:560][  0]LogInit: Using OS detected locale (en-US).
+[2018.06.23-14.33.48:562][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.06.23-14.33.48:992][  0]LogStreaming: Display: Took  0.433s to EndInitTextLocalization.
+[2018.06.23-14.33.48:993][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
+[2018.06.23-14.33.48:993][  0]LogWindows: File 'shcore.dll' does not exist
+[2018.06.23-14.33.48:993][  0]LogInit: Setting process to DPI aware
+[2018.06.23-14.33.48:996][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
+[2018.06.23-14.33.48:996][  0]LogWindows: File 'shcore.dll' does not exist
+[2018.06.23-14.33.48:996][  0]LogInit: Setting process to DPI aware
+[2018.06.23-14.33.49:023][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.06.23-14.33.49:023][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.06.23-14.33.49:201][  0]LogD3D11RHI: D3D11 adapters:
+[2018.06.23-14.33.49:234][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.06.23-14.33.49:234][  0]LogD3D11RHI:       8085/0/7915 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.06.23-14.33.49:234][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.06.23-14.33.49:239][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.06.23-14.33.49:239][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.06.23-14.33.49:239][  0]LogWindows: EnumDisplayDevices:
+[2018.06.23-14.33.49:240][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.06.23-14.33.49:240][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.06.23-14.33.49:240][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.06.23-14.33.49:240][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.06.23-14.33.49:240][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2018.06.23-14.33.49:240][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2018.06.23-14.33.49:240][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2018.06.23-14.33.49:241][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.06.23-14.33.49:241][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.06.23-14.33.49:241][  0]LogD3D11RHI:   Driver Version: 388.71 (internal:23.21.13.8871, unified:388.71)
+[2018.06.23-14.33.49:241][  0]LogD3D11RHI:      Driver Date: 12-15-2017
+[2018.06.23-14.33.49:241][  0]LogRHI: Texture pool is 5659 MB (70% of 8085 MB)
+[2018.06.23-14.33.49:248][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.06.23-14.33.49:248][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.06.23-14.33.49:248][  0]LogD3D11RHI: Async texture creation enabled
+[2018.06.23-14.33.49:262][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.06.23-14.33.49:310][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Intermediate/Shaders/WorkingDirectory/2428/).
+[2018.06.23-14.33.49:310][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/DasSKander/AppData/Local/Temp/UnrealShaderWorkingDir/2C2E13F142152A67494AAB8E6245A577/'.
+[2018.06.23-14.33.49:530][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.06.23-14.33.49:543][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.06.23-14.33.49:556][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.06.23-14.33.49:568][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.06.23-14.33.49:582][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.06.23-14.33.49:594][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.06.23-14.33.49:607][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.06.23-14.33.49:621][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.06.23-14.33.49:628][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.06.23-14.33.49:640][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.06.23-14.33.49:652][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.06.23-14.33.49:663][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.06.23-14.33.49:674][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.06.23-14.33.49:686][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.06.23-14.33.49:698][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.06.23-14.33.49:721][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.06.23-14.33.49:721][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.06.23-14.33.49:733][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.06.23-14.33.49:734][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.06.23-14.33.49:769][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.06.23-14.33.49:782][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.06.23-14.33.49:793][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.06.23-14.33.49:805][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.06.23-14.33.49:817][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.06.23-14.33.49:830][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.06.23-14.33.49:830][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.06.23-14.33.49:931][  0]LogXGEController: Cleaning working directory: C:/Users/DasSKander/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.06.23-14.33.49:931][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.06.23-14.33.49:931][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.06.23-14.33.49:931][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.06.23-14.33.50:584][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.06.23-14.33.51:827][  0]LogDerivedDataCache: Loaded boot cache 1.24s 164MB C:/Users/DasSKander/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.23-14.33.51:828][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/DasSKander/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.06.23-14.33.51:828][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.06.23-14.33.51:828][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.06.23-14.33.51:828][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.06.23-14.33.51:828][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.06.23-14.33.51:844][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.06.23-14.33.51:906][  0]LogDerivedDataCache: Using Local data cache path C:/Users/DasSKander/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.06.23-14.33.51:906][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.06.23-14.33.51:906][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.06.23-14.33.51:940][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.06.23-14.33.51:940][  0]LogSlate: Using Freetype 2.6.0
+[2018.06.23-14.33.51:941][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.23-14.33.51:941][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.23-14.33.52:071][  0]LogAssetRegistry: FAssetRegistry took 0.0242 seconds to start up
+[2018.06.23-14.33.52:369][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.23-14.33.52:514][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.06.23-14.33.52:516][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.06.23-14.33.52:516][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.06.23-14.33.52:516][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.06.23-14.33.52:516][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.06.23-14.33.52:516][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.06.23-14.33.52:551][  0]LogNetVersion: APatheticGame , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1227650307)
+[2018.06.23-14.33.55:016][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 2.071824 seconds
+[2018.06.23-14.33.55:030][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.06.23-14.33.55:030][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.06.23-14.33.55:030][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.06.23-14.33.56:643][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.06.23-14.33.56:670][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.06.23-14.33.56:968][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004ad74b80, Size=304, Default__Shinbi_AnimBlueprint_C Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
+[2018.06.23-14.33.56:969][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004bc5ca00, Size=368, Default__ShinbiPlayerCharacter_C Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/ShinbiPlayerCharacter.ShinbiPlayerCharacter_C:ExecuteUbergraph_ShinbiPlayerCharacter
+[2018.06.23-14.33.57:437][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004ad74b80, Size=304
+[2018.06.23-14.33.57:437][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004e512980, Size=304, Default__Shinbi_AnimBlueprint_C Function /Engine/Transient.REINST_Shinbi_AnimBlueprint_C_0:ExecuteUbergraph_Shinbi_AnimBlueprint
+[2018.06.23-14.33.57:438][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004bc5ca00, Size=368
+[2018.06.23-14.33.57:438][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004e0e3400, Size=368, Default__ShinbiPlayerCharacter_C Function /Engine/Transient.REINST_ShinbiPlayerCharacter_C_3:ExecuteUbergraph_ShinbiPlayerCharacter
+[2018.06.23-14.33.57:460][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004e036340, Size=304, Default__Shinbi_AnimBlueprint_C Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
+[2018.06.23-14.33.57:463][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004bc5c280, Size=368, Default__ShinbiPlayerCharacter_C Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/ShinbiPlayerCharacter.ShinbiPlayerCharacter_C:ExecuteUbergraph_ShinbiPlayerCharacter
+[2018.06.23-14.33.57:481][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004df7ee80, Size=592, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.33.57:488][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004d4bd4e8, Size=4, Default__Item_C Function /Game/InventorySystem/Items/Item.Item_C:ExecuteUbergraph_Item
+[2018.06.23-14.33.57:496][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004df83260, Size=32, Default__InventoryWindow_C Function /Game/InventorySystem/InventoryUI/InventoryWindow.InventoryWindow_C:ExecuteUbergraph_InventoryWindow
+[2018.06.23-14.33.57:538][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004d4bec20, Size=4, Default__BP_MasterItem_C Function /Game/InventorySystem2/Blueprints/ItemClasses/BP_MasterItem.BP_MasterItem_C:ExecuteUbergraph_BP_MasterItem
+[2018.06.23-14.33.57:545][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004d4be778, Size=4, Default__BP_Inventory_C Function /Game/InventorySystem2/Blueprints/BP_Inventory.BP_Inventory_C:ExecuteUbergraph_BP_Inventory
+[2018.06.23-14.33.57:553][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004df83b60, Size=32, Default__StaminaHUD_C Function /Game/StaminaHUD.StaminaHUD_C:ExecuteUbergraph_StaminaHUD
+[2018.06.23-14.33.57:589][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004d4be778, Size=4
+[2018.06.23-14.33.57:589][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004d96b9b0, Size=4, Default__BP_Inventory_C Function /Engine/Transient.REINST_BP_Inventory_C_8:ExecuteUbergraph_BP_Inventory
+[2018.06.23-14.33.57:590][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004d4bec20, Size=4
+[2018.06.23-14.33.57:590][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004d96b998, Size=4, Default__BP_MasterItem_C Function /Engine/Transient.REINST_BP_MasterItem_C_9:ExecuteUbergraph_BP_MasterItem
+[2018.06.23-14.33.57:590][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004d4bd4e8, Size=4
+[2018.06.23-14.33.57:590][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004d96b988, Size=4, Default__Item_C Function /Engine/Transient.REINST_Item_C_11:ExecuteUbergraph_Item
+[2018.06.23-14.33.57:590][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004df83260, Size=32
+[2018.06.23-14.33.57:590][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004dbf0200, Size=32, Default__InventoryWindow_C Function /Engine/Transient.REINST_InventoryWindow_C_2:ExecuteUbergraph_InventoryWindow
+[2018.06.23-14.33.57:591][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004df83b60, Size=32
+[2018.06.23-14.33.57:591][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004dbf0120, Size=32, Default__StaminaHUD_C Function /Engine/Transient.REINST_StaminaHUD_C_3:ExecuteUbergraph_StaminaHUD
+[2018.06.23-14.33.57:591][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004df7ee80, Size=592
+[2018.06.23-14.33.57:591][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004dc16c00, Size=592, Default__ThirdPersonCharacter_C Function /Engine/Transient.REINST_ThirdPersonCharacter_C_12:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.33.57:613][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004d96a6d8, Size=4, Default__BP_Inventory_C Function /Game/InventorySystem2/Blueprints/BP_Inventory.BP_Inventory_C:ExecuteUbergraph_BP_Inventory
+[2018.06.23-14.33.57:614][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004d96a4c0, Size=4, Default__BP_MasterItem_C Function /Game/InventorySystem2/Blueprints/ItemClasses/BP_MasterItem.BP_MasterItem_C:ExecuteUbergraph_BP_MasterItem
+[2018.06.23-14.33.57:614][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004d96a498, Size=4, Default__Item_C Function /Game/InventorySystem/Items/Item.Item_C:ExecuteUbergraph_Item
+[2018.06.23-14.33.57:615][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000366e4780, Size=32, Default__InventoryWindow_C Function /Game/InventorySystem/InventoryUI/InventoryWindow.InventoryWindow_C:ExecuteUbergraph_InventoryWindow
+[2018.06.23-14.33.57:616][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000366e40c0, Size=32, Default__StaminaHUD_C Function /Game/StaminaHUD.StaminaHUD_C:ExecuteUbergraph_StaminaHUD
+[2018.06.23-14.33.57:619][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000003678f880, Size=592, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.33.57:623][  0]LogClass: Warning: Property ItemInfo of ItemInfo has a struct type mismatch (tag ItemStructure != prop ItemInfo) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.06.23-14.33.57:934][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [25.411520ms] /Game/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi.Shinbi
+[2018.06.23-14.33.58:104][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [31.164471ms] /Game/ParagonShinbi/Characters/Heroes/Shinbi/Skins/Tier_1/Shinbi_Jade/Meshes/ShinbiJade.ShinbiJade
+[2018.06.23-14.33.58:298][  0]SourceControl: Source control is disabled
+[2018.06.23-14.33.58:298][  0]SourceControl: Source control is disabled
+[2018.06.23-14.33.58:338][  0]SourceControl: Source control is disabled
+[2018.06.23-14.33.58:360][  0]SourceControl: Source control is disabled
+[2018.06.23-14.33.58:884][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.06.23-14.33.59:037][  0]LogOcInput: OculusInput pre-init called
+[2018.06.23-14.33.59:138][  0]LogEngine: Initializing Engine...
+[2018.06.23-14.33.59:140][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.06.23-14.33.59:141][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.23-14.33.59:141][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.23-14.33.59:379][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.06.23-14.33.59:400][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.23-14.33.59:412][  0]LogInit: FAudioDevice initialized.
+[2018.06.23-14.34.01:518][  0]LogDerivedDataCache: Saved boot cache 2.10s 164MB C:/Users/DasSKander/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.23-14.34.01:552][  0]LogInit: Texture streaming: Enabled
+[2018.06.23-14.34.01:595][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.06.23-14.34.01:634][  0]LogInit: Transaction tracking system initialized
+[2018.06.23-14.34.01:663][  0]BlueprintLog: New page: Editor Load
+[2018.06.23-14.34.01:898][  0]LocalizationService: Localization service is disabled
+[2018.06.23-14.34.01:992][  0]LogConsoleResponse: Display: 
+[2018.06.23-14.34.02:152][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.06.23-14.34.02:152][  0]LogCook: Display: Mobile HDR setting 1
+[2018.06.23-14.34.02:152][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.06.23-14.34.02:152][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.23-14.34.02:152][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.23-14.34.02:467][  0]LogFileCache: Scanning file cache for directory 'C:/Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/' took 0.03s
+[2018.06.23-14.34.02:467][  0]SourceControl: Source control is disabled
+[2018.06.23-14.34.02:467][  0]Cmd: MAP LOAD FILE="../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.23-14.34.02:468][  0]LightingResults: New page: Lighting Build
+[2018.06.23-14.34.02:470][  0]MapCheck: New page: Map Check
+[2018.06.23-14.34.02:470][  0]LightingResults: New page: Lighting Build
+[2018.06.23-14.34.02:483][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004e512980, Size=304
+[2018.06.23-14.34.02:483][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004e0e3400, Size=368
+[2018.06.23-14.34.02:483][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004dc16c00, Size=592
+[2018.06.23-14.34.02:483][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004d96b988, Size=4
+[2018.06.23-14.34.02:483][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004dbf0200, Size=32
+[2018.06.23-14.34.02:483][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004d96b998, Size=4
+[2018.06.23-14.34.02:483][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004d96b9b0, Size=4
+[2018.06.23-14.34.02:483][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004dbf0120, Size=32
+[2018.06.23-14.34.02:526][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000373deca0, Size=144, Default__UE4ASP_HeroTPP_AnimBlueprint_C Function /Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint_C:ExecuteUbergraph_UE4ASP_HeroTPP_AnimBlueprint
+[2018.06.23-14.34.02:532][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004e019b00, Size=120, Default__Ue4ASP_Character_C Function /Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character_C:ExecuteUbergraph_Ue4ASP_Character
+[2018.06.23-14.34.02:598][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000373deca0, Size=144
+[2018.06.23-14.34.02:598][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004df18540, Size=144, Default__UE4ASP_HeroTPP_AnimBlueprint_C Function /Engine/Transient.REINST_UE4ASP_HeroTPP_AnimBlueprint_C_1:ExecuteUbergraph_UE4ASP_HeroTPP_AnimBlueprint
+[2018.06.23-14.34.02:599][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004e019b00, Size=120
+[2018.06.23-14.34.02:599][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000006927ac00, Size=120, Default__Ue4ASP_Character_C Function /Engine/Transient.REINST_Ue4ASP_Character_C_22:ExecuteUbergraph_Ue4ASP_Character
+[2018.06.23-14.34.02:619][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004df1ec00, Size=144, Default__UE4ASP_HeroTPP_AnimBlueprint_C Function /Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint_C:ExecuteUbergraph_UE4ASP_HeroTPP_AnimBlueprint
+[2018.06.23-14.34.02:620][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000024e6d1c0, Size=320, Default__Ue4ASP_Character_C Function /Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character_C:ExecuteUbergraph_Ue4ASP_Character
+[2018.06.23-14.34.02:635][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000024db19f0, Size=104, Default__AICharacter_C Function /Game/AI/AICharacter.AICharacter_C:ExecuteUbergraph_AICharacter
+[2018.06.23-14.34.02:637][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000000024db19f0, Size=104
+[2018.06.23-14.34.02:637][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000024db19f0, Size=104, Default__AICharacter_C Function /Engine/Transient.REINST_AICharacter_C_25:ExecuteUbergraph_AICharacter
+[2018.06.23-14.34.02:639][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000024dd0870, Size=104, Default__AICharacter_C Function /Game/AI/AICharacter.AICharacter_C:ExecuteUbergraph_AICharacter
+[2018.06.23-14.34.02:716][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000366bab00, Size=416, Default__CopyDoorDesu1_C Function /Game/CopyDoorDesu1.CopyDoorDesu1_C:ExecuteUbergraph_CopyDoorDesu1
+[2018.06.23-14.34.02:719][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000366bab00, Size=416
+[2018.06.23-14.34.02:720][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000366bab00, Size=416, Default__CopyDoorDesu1_C Function /Engine/Transient.REINST_CopyDoorDesu1_C_29:ExecuteUbergraph_CopyDoorDesu1
+[2018.06.23-14.34.02:723][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000366b8b80, Size=416, Default__CopyDoorDesu1_C Function /Game/CopyDoorDesu1.CopyDoorDesu1_C:ExecuteUbergraph_CopyDoorDesu1
+[2018.06.23-14.34.02:736][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000028e8b900, Size=416, Default__DoorDesu_C Function /Game/DoorDesu.DoorDesu_C:ExecuteUbergraph_DoorDesu
+[2018.06.23-14.34.02:739][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000000028e8b900, Size=416
+[2018.06.23-14.34.02:739][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000028e8b900, Size=416, Default__DoorDesu_C Function /Engine/Transient.REINST_DoorDesu_C_31:ExecuteUbergraph_DoorDesu
+[2018.06.23-14.34.02:743][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000028e8a080, Size=416, Default__DoorDesu_C Function /Game/DoorDesu.DoorDesu_C:ExecuteUbergraph_DoorDesu
+[2018.06.23-14.34.02:747][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000373c1db8, Size=4, Default__Item_Cube_C Function /Game/InventorySystem/Items/Item.Item_C:ExecuteUbergraph_Item
+[2018.06.23-14.34.02:749][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000373c1db8, Size=4
+[2018.06.23-14.34.02:749][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000373c1db8, Size=4, Default__Item_Cube_C Function /Game/InventorySystem/Items/Item.Item_C:ExecuteUbergraph_Item
+[2018.06.23-14.34.02:749][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000373c1e78, Size=4, Default__Item_Cube_C Function /Game/InventorySystem/Items/Item.Item_C:ExecuteUbergraph_Item
+[2018.06.23-14.34.02:756][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000028e22da0, Size=208, Default__BP_PIckUpActor_C Function /Game/InventorySystem2/Blueprints/ItemClasses/BP_PIckUpActor.BP_PIckUpActor_C:ExecuteUbergraph_BP_PIckUpActor
+[2018.06.23-14.34.02:758][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000000028e22da0, Size=208
+[2018.06.23-14.34.02:758][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000028e22da0, Size=208, Default__BP_PIckUpActor_C Function /Engine/Transient.REINST_BP_PIckUpActor_C_34:ExecuteUbergraph_BP_PIckUpActor
+[2018.06.23-14.34.02:761][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000028e21280, Size=208, Default__BP_PIckUpActor_C Function /Game/InventorySystem2/Blueprints/ItemClasses/BP_PIckUpActor.BP_PIckUpActor_C:ExecuteUbergraph_BP_PIckUpActor
+[2018.06.23-14.34.02:765][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000373c1d08, Size=4, Default__HealthPot_C Function /Game/InventorySystem2/Blueprints/ItemClasses/BP_MasterItem.BP_MasterItem_C:ExecuteUbergraph_BP_MasterItem
+[2018.06.23-14.34.02:766][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000373c1d08, Size=4
+[2018.06.23-14.34.02:766][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000373c1d08, Size=4, Default__HealthPot_C Function /Game/InventorySystem2/Blueprints/ItemClasses/BP_MasterItem.BP_MasterItem_C:ExecuteUbergraph_BP_MasterItem
+[2018.06.23-14.34.02:766][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000373c1d30, Size=4, Default__HealthPot_C Function /Game/InventorySystem2/Blueprints/ItemClasses/BP_MasterItem.BP_MasterItem_C:ExecuteUbergraph_BP_MasterItem
+[2018.06.23-14.34.02:769][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000373c1ac0, Size=4, Default__Map_C Function /Game/InventorySystem2/Blueprints/ItemClasses/BP_MasterItem.BP_MasterItem_C:ExecuteUbergraph_BP_MasterItem
+[2018.06.23-14.34.02:771][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000373c1ac0, Size=4
+[2018.06.23-14.34.02:771][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000373c1ac0, Size=4, Default__Map_C Function /Game/InventorySystem2/Blueprints/ItemClasses/BP_MasterItem.BP_MasterItem_C:ExecuteUbergraph_BP_MasterItem
+[2018.06.23-14.34.02:771][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000373c1a68, Size=4, Default__Map_C Function /Game/InventorySystem2/Blueprints/ItemClasses/BP_MasterItem.BP_MasterItem_C:ExecuteUbergraph_BP_MasterItem
+[2018.06.23-14.34.02:777][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000028daf660, Size=224, Default__MoveAbleObject_C Function /Game/MoveAbleObject.MoveAbleObject_C:ExecuteUbergraph_MoveAbleObject
+[2018.06.23-14.34.02:781][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000000028daf660, Size=224
+[2018.06.23-14.34.02:781][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000028daf660, Size=224, Default__MoveAbleObject_C Function /Engine/Transient.REINST_MoveAbleObject_C_38:ExecuteUbergraph_MoveAbleObject
+[2018.06.23-14.34.02:783][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000028dad600, Size=224, Default__MoveAbleObject_C Function /Game/MoveAbleObject.MoveAbleObject_C:ExecuteUbergraph_MoveAbleObject
+[2018.06.23-14.34.02:791][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000002925f200, Size=112, Default__SM_Door_Blueprint1_C Function /Game/SM_Door_Blueprint1.SM_Door_Blueprint1_C:ExecuteUbergraph_SM_Door_Blueprint1
+[2018.06.23-14.34.02:796][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000002925f200, Size=112
+[2018.06.23-14.34.02:796][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000000002925f200, Size=112, Default__SM_Door_Blueprint1_C Function /Engine/Transient.REINST_SM_Door_Blueprint1_C_40:ExecuteUbergraph_SM_Door_Blueprint1
+[2018.06.23-14.34.02:799][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000024e64aa0, Size=112, Default__SM_Door_Blueprint1_C Function /Game/SM_Door_Blueprint1.SM_Door_Blueprint1_C:ExecuteUbergraph_SM_Door_Blueprint1
+[2018.06.23-14.34.03:017][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [4.000795ms] /Game/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin
+[2018.06.23-14.34.03:258][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.06.23-14.34.03:272][  0]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
 Script call stack:
 	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
 	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
 
-[2018.06.23-12.36.36:593][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.06.23-12.36.36:606][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004e709440, Size=416
-[2018.06.23-12.36.36:606][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004cfa82c0, Size=416
-[2018.06.23-12.36.36:606][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004d5fbaa0, Size=4
-[2018.06.23-12.36.36:606][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004e3d25c0, Size=208
-[2018.06.23-12.36.36:606][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004d5fbc50, Size=4
-[2018.06.23-12.36.36:606][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004d5f8f30, Size=4
-[2018.06.23-12.36.36:606][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004dbdda60, Size=224
-[2018.06.23-12.36.36:606][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000000021d68330, Size=112
-[2018.06.23-12.36.36:607][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.06.23-12.36.36:699][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 91.44ms to complete.
-[2018.06.23-12.36.36:699][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.455
-[2018.06.23-12.36.36:827][  0]LogCollectionManager: Loaded 0 collections in 0.001856 seconds
-[2018.06.23-12.36.36:870][  0]LogFileCache: Scanning file cache for directory 'C:/Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Saved/Collections/' took 0.01s
-[2018.06.23-12.36.36:870][  0]LogFileCache: Scanning file cache for directory 'C:/Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/Developers/DasSKander/Collections/' took 0.01s
-[2018.06.23-12.36.36:870][  0]LogFileCache: Scanning file cache for directory 'C:/Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/Collections/' took 0.01s
-[2018.06.23-12.36.36:870][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.06.23-12.36.36:879][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2458 classes and 560 folders.
-[2018.06.23-12.36.36:887][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
-[2018.06.23-12.36.36:942][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.06.23-12.36.36:948][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2018.06.23-12.36.37:067][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.06.23-12.36.37:067][  0]LogLoad: (Engine Initialization) Total time: 16.51 seconds
-[2018.06.23-12.36.37:067][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.06.23-12.36.37:100][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.06.23-12.36.37:102][  0]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.06.23-12.36.37:103][  0]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.06.23-12.36.37:108][  0]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.06.23-12.36.37:226][  0]LogRenderer: Reallocating scene render targets to support 744x300 Format 10 NumSamples 1 (Frame:1).
-[2018.06.23-12.36.37:274][  0]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.06.23-12.36.37:395][  2]LogAssetRegistry: Asset discovery search completed in 10.9674 seconds
-[2018.06.23-12.36.37:398][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.06.23-12.36.37:398][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000084 seconds (updated 0 objects)
-[2018.06.23-12.36.39:986][306]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.23-12.36.40:079][313]LogRenderer: Reallocating scene render targets to support 1124x508 Format 10 NumSamples 1 (Frame:4).
-[2018.06.23-12.36.46:308][ 25]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.23-12.36.47:867][203]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000088d506b0, Size=104, Default__AICharacter_C Function /Game/AI/AICharacter.AICharacter_C:ExecuteUbergraph_AICharacter
-[2018.06.23-12.36.47:869][203]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000000088d506b0, Size=104
-[2018.06.23-12.36.47:869][203]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000088d506b0, Size=104, Default__AICharacter_C Function /Engine/Transient.REINST_AICharacter_C_37:ExecuteUbergraph_AICharacter
-[2018.06.23-12.36.47:872][203]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000075ab5de0, Size=104, Default__AICharacter_C Function /Game/AI/AICharacter.AICharacter_C:ExecuteUbergraph_AICharacter
-[2018.06.23-12.36.47:992][203]LogSkeletalMesh: Skeletal Mesh found in DDC [31.144014ms] /Game/ParagonShinbi/Characters/Heroes/Shinbi/Skins/Tier_1/Shinbi_Dynasty/Meshes/ShinbiDynasty.ShinbiDynasty
-[2018.06.23-12.36.48:031][203]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+[2018.06.23-14.34.03:281][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.23-14.34.03:303][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000006927ac00, Size=120
+[2018.06.23-14.34.03:303][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004df18540, Size=144
+[2018.06.23-14.34.03:303][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000000024db19f0, Size=104
+[2018.06.23-14.34.03:303][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000366bab00, Size=416
+[2018.06.23-14.34.03:303][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000000028e8b900, Size=416
+[2018.06.23-14.34.03:303][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000373c1db8, Size=4
+[2018.06.23-14.34.03:303][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000000028e22da0, Size=208
+[2018.06.23-14.34.03:304][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000373c1d08, Size=4
+[2018.06.23-14.34.03:304][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000373c1ac0, Size=4
+[2018.06.23-14.34.03:304][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000000028daf660, Size=224
+[2018.06.23-14.34.03:304][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000002925f200, Size=112
+[2018.06.23-14.34.03:305][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.23-14.34.03:396][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 90.457ms to complete.
+[2018.06.23-14.34.03:396][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.928
+[2018.06.23-14.34.03:550][  0]LogCollectionManager: Loaded 0 collections in 0.002430 seconds
+[2018.06.23-14.34.03:596][  0]LogFileCache: Scanning file cache for directory 'C:/Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Saved/Collections/' took 0.01s
+[2018.06.23-14.34.03:596][  0]LogFileCache: Scanning file cache for directory 'C:/Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/Developers/DasSKander/Collections/' took 0.01s
+[2018.06.23-14.34.03:596][  0]LogFileCache: Scanning file cache for directory 'C:/Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/Collections/' took 0.01s
+[2018.06.23-14.34.03:596][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.06.23-14.34.03:607][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2458 classes and 560 folders.
+[2018.06.23-14.34.03:615][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.06.23-14.34.03:673][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.06.23-14.34.03:680][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.06.23-14.34.03:796][  0]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.06.23-14.34.03:798][  0]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.06.23-14.34.03:805][  0]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.06.23-14.34.03:899][  0]LogRenderer: Reallocating scene render targets to support 1124x508 Format 10 NumSamples 1 (Frame:1).
+[2018.06.23-14.34.03:964][  0]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.06.23-14.34.04:038][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2018.06.23-14.34.04:038][  0]LogLoad: (Engine Initialization) Total time: 19.07 seconds
+[2018.06.23-14.34.04:038][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.06.23-14.34.04:082][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.06.23-14.34.04:225][  2]LogAssetRegistry: Asset discovery search completed in 12.1739 seconds
+[2018.06.23-14.34.04:228][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.06.23-14.34.04:228][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000050 seconds (updated 0 objects)
+[2018.06.23-14.39.59:993][802]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.23-14.40.00:475][859]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.06.23-14.40.00:736][859]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 116 classes and 0 folders.
+[2018.06.23-14.40.01:029][859]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000090a5f880, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.06.23-14.40.01:029][859]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000090a5f878, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.06.23-14.40.01:422][859]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.06.23-14.40.01:493][860]LogSlate: Took 0.000319 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.06.23-14.40.07:633][425]LogSlate: Window 'AICharacter' being destroyed
+[2018.06.23-14.40.07:636][425]LogSlate: Window 'AICharacter' being destroyed
+[2018.06.23-14.41.52:321][994]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
 Script call stack:
 	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
 	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
 
-[2018.06.23-12.36.48:044][203]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+[2018.06.23-14.41.53:708][128]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
 Script call stack:
 	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
 	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
 
-[2018.06.23-12.36.48:045][203]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+[2018.06.23-14.41.54:235][163]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
 Script call stack:
 	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
 	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
 
-[2018.06.23-12.36.50:763][500]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+[2018.06.23-14.42.07:261][412]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000bd8010b8, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.42.07:262][412]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
 Script call stack:
 	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
 	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
 
-[2018.06.23-12.36.50:816][500]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+[2018.06.23-14.42.29:411][766]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
 Script call stack:
 	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
 	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
 
-[2018.06.23-12.36.50:864][500]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+[2018.06.23-14.44.09:011][227]LogSavePackage: Save=774.56ms
+[2018.06.23-14.44.09:011][227]LogSavePackage: Moving '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Saved/ThirdPersonExampleMap_Auto10A8F7B894CDF8112AC878892A7152679.tmp' to '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2018.06.23-14.44.09:014][227]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2018.06.23-14.44.09:018][227]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.965
+[2018.06.23-14.44.09:018][227]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.965
+[2018.06.23-14.44.09:023][227]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2018.06.23-14.44.09:036][227]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2018.06.23-14.44.09:036][227]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter]
+[2018.06.23-14.44.09:452][227]LogSavePackage: Save=358.40ms
+[2018.06.23-14.44.09:453][227]LogSavePackage: Moving '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Saved/ThirdPersonCharacter_Auto1642A36484BD586C2D6DCD69182D4C380.tmp' to '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_Auto1.uasset'
+[2018.06.23-14.44.09:454][227]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_Auto1.uasset
+[2018.06.23-14.44.09:455][227]LogFileHelpers: Auto-saving content packages took 0.433
+[2018.06.23-14.44.12:481][237]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.06.23-14.44.12:518][237]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000bd8010b8, Size=4
+[2018.06.23-14.44.12:518][237]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000c351e828, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_62:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.44.12:786][237]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000003678f880, Size=592
+[2018.06.23-14.44.12:786][237]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000bd891080, Size=592, Default__ThirdPersonCharacter_C Function /Engine/Transient.REINST_ThirdPersonCharacter_C_67:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.44.12:800][237]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000baaf2480, Size=600, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.44.12:804][237]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
 Script call stack:
 	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
 	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
 
-[2018.06.23-12.36.54:695][932]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.23-12.37.33:025][914]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.23-12.37.33:117][925]LogTemp: Repeating last play command: Selected Viewport
-[2018.06.23-12.37.33:137][925]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.06.23-12.37.33:138][925]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.23-12.37.33:138][925]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 23, 2018, 4:37:33 AM)
-[2018.06.23-12.37.33:138][925]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2018.06.23-12.37.33:156][925]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017887s)
-[2018.06.23-12.37.33:157][925]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.06.23-12.37.33:157][925]LogPlayLevel: PIE: World Init took: (0.000802s)
-[2018.06.23-12.37.33:157][925]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018951s)
-[2018.06.23-12.37.33:170][925]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000000088d506b0, Size=104
-[2018.06.23-12.37.33:175][925]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.23-12.37.33:185][925]LogInit: FAudioDevice initialized.
-[2018.06.23-12.37.33:225][925]LogLoad: Game class is 'APatheticGameGameMode'
-[2018.06.23-12.37.33:238][925]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.06.23-08.37.33
-[2018.06.23-12.37.33:239][925]LogWorld: Bringing up level for play took: 0.013587
-[2018.06.23-12.37.33:243][925]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
-[2018.06.23-12.37.33:245][925]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.394
-[2018.06.23-12.37.33:245][925]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.06.23-12.37.35:469][181]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonShinbi/Characters/Heroes/Shinbi/Animations/LevelStart_Montage.LevelStart_Montage'
-[2018.06.23-12.37.35:469][181]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonShinbi/Characters/Heroes/Shinbi/Animations/LevelStart_Montage.LevelStart_Montage'
-[2018.06.23-12.37.56:419][649]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.06.23-12.37.56:453][649]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.06.23-12.37.57:917][817]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.23-12.37.59:522][  7]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.23-12.38.00:369][  7]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.06.23-12.38.00:470][  8]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.APatheticGame
-[2018.06.23-12.38.00:471][  8]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.06.23-12.38.00:471][  8]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.19
-[2018.06.23-12.38.00:471][  8]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.06.23-12.38.00:471][  8]LogTemp: BranchPath = SLASSER/C/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = SLASSER/C/Program Files/Epic Games/UE_4.19/Engine/Binaries
-[2018.06.23-12.38.00:471][  8]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\DasSKander\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.06.23-12.38.43:931][679]LogTemp: Repeating last play command: Selected Viewport
-[2018.06.23-12.38.43:951][679]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.06.23-12.38.43:952][679]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.23-12.38.43:952][679]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 23, 2018, 4:38:43 AM)
-[2018.06.23-12.38.43:952][679]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2018.06.23-12.38.43:974][679]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021921s)
-[2018.06.23-12.38.43:975][679]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.06.23-12.38.43:975][679]LogPlayLevel: PIE: World Init took: (0.000868s)
-[2018.06.23-12.38.43:975][679]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023031s)
-[2018.06.23-12.38.43:991][679]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.23-12.38.44:005][679]LogInit: FAudioDevice initialized.
-[2018.06.23-12.38.44:035][679]LogLoad: Game class is 'APatheticGameGameMode'
-[2018.06.23-12.38.44:049][679]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.06.23-08.38.44
-[2018.06.23-12.38.44:050][679]LogWorld: Bringing up level for play took: 0.013335
-[2018.06.23-12.38.44:051][679]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.408
-[2018.06.23-12.38.44:051][679]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.06.23-12.38.46:279][937]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonShinbi/Characters/Heroes/Shinbi/Animations/LevelStart_Montage.LevelStart_Montage'
-[2018.06.23-12.38.46:279][937]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonShinbi/Characters/Heroes/Shinbi/Animations/LevelStart_Montage.LevelStart_Montage'
-[2018.06.23-12.39.03:895][ 30]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.06.23-12.39.03:924][ 30]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.06.23-12.39.04:729][121]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.23-12.39.17:936][402]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.06.23-12.39.18:191][402]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
-[2018.06.23-12.39.18:498][402]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000a15aa4b8, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2018.06.23-12.39.18:498][402]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000a15aa4b0, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2018.06.23-12.39.18:920][402]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.06.23-12.39.19:241][403]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.06.23-12.39.36:312][804]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2018.06.23-12.39.36:643][804]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004e1f9080, Size=592
-[2018.06.23-12.39.36:643][804]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000ce5ba480, Size=592, Default__ThirdPersonCharacter_C Function /Engine/Transient.REINST_ThirdPersonCharacter_C_58:ExecuteUbergraph_ThirdPersonCharacter
-[2018.06.23-12.39.36:651][804]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] InputAction Event references unknown Action 'Attack' for  InputAction Attack
-[2018.06.23-12.39.36:658][804]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000d0bedf80, Size=592, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
-[2018.06.23-12.39.36:662][804]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+[2018.06.23-14.44.12:806][237]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
 Script call stack:
 	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
 	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
 
-[2018.06.23-12.39.36:665][804]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+[2018.06.23-14.44.13:234][237]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000c351e828, Size=4
+[2018.06.23-14.44.13:238][237]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
 Script call stack:
 	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
 	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
 
-[2018.06.23-12.39.37:112][804]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+[2018.06.23-14.44.13:262][237]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
 Script call stack:
 	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
 	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
 
-[2018.06.23-12.39.37:132][804]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+[2018.06.23-14.44.14:588][328]LogSavePackage: Save=316.22ms
+[2018.06.23-14.44.14:589][328]LogSavePackage: Moving '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Saved/ThirdPersonCharacterE8DA51334F31027FA8F19DB8A44B56D4.tmp' to '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.06.23-14.44.14:592][328]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset
+[2018.06.23-14.44.16:610][494]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.23-14.44.16:647][494]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-14.44.16:648][494]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.23-14.44.16:648][494]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 23, 2018, 6:44:16 AM)
+[2018.06.23-14.44.16:648][494]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.06.23-14.44.16:667][494]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018598s)
+[2018.06.23-14.44.16:667][494]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.06.23-14.44.16:668][494]LogPlayLevel: PIE: World Init took: (0.000842s)
+[2018.06.23-14.44.16:668][494]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019667s)
+[2018.06.23-14.44.16:695][494]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.23-14.44.16:705][494]LogInit: FAudioDevice initialized.
+[2018.06.23-14.44.16:747][494]LogLoad: Game class is 'APatheticGameGameMode'
+[2018.06.23-14.44.16:755][494]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.06.23-10.44.16
+[2018.06.23-14.44.16:756][494]LogWorld: Bringing up level for play took: 0.008102
+[2018.06.23-14.44.16:762][494]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2018.06.23-14.44.16:763][494]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.692
+[2018.06.23-14.44.16:763][494]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-14.44.18:958][699]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonShinbi/Characters/Heroes/Shinbi/Animations/LevelStart_Montage.LevelStart_Montage'
+[2018.06.23-14.44.53:414][ 84]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-14.44.53:460][ 84]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-14.44.56:399][381]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.23-14.44.57:208][387]LogSavePackage: Save=657.91ms
+[2018.06.23-14.44.57:208][387]LogSavePackage: Moving '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Saved/ThirdPersonExampleMapA74EE83942795F4C904BA3AEEBB48704.tmp' to '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2018.06.23-14.44.57:213][387]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
+[2018.06.23-14.44.57:670][387]LogSavePackage: Save=322.78ms
+[2018.06.23-14.44.57:670][387]LogSavePackage: Moving '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Saved/ThirdPersonExampleMap_BuiltDataC2B8354A43BF375A3E5207909DA456BD.tmp' to '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.06.23-14.44.57:673][387]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.06.23-14.47.35:943][393]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.23-14.49.57:725][340]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000bd803578, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.49.57:726][340]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
 Script call stack:
 	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
 	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
 
-[2018.06.23-12.39.37:137][804]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] [0196.57] Compile of ThirdPersonCharacter successful, but with 1 Warning(s) [in 824 ms] (/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
-[2018.06.23-12.40.05:645][141]LogSlate: Window 'Project Settings' being destroyed
-[2018.06.23-12.40.05:648][141]LogSlate: Window 'Project Settings' being destroyed
-[2018.06.23-12.40.06:462][223]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.23-12.40.06:544][232]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2018.06.23-12.40.06:645][232]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000d0bedf80, Size=592
-[2018.06.23-12.40.06:645][232]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000716a3d80, Size=592, ThirdPersonCharacter_C_7 Function /Engine/Transient.REINST_ThirdPersonCharacter_C_67:ExecuteUbergraph_ThirdPersonCharacter
-[2018.06.23-12.40.06:657][232]LogUObjectGlobals: Created PersistentFrame Addr=0x000000009dfe4680, Size=592, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
-[2018.06.23-12.40.06:661][232]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+[2018.06.23-14.52.55:037][ 77]LogEditorTransaction: Undo Create Pin Link
+[2018.06.23-14.52.55:048][ 77]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000bd803578, Size=4
+[2018.06.23-14.52.55:048][ 77]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000bcfa60c8, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_75:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.52.55:052][ 77]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000bcfa71c8, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.52.55:054][ 77]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
 Script call stack:
 	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
 	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
 
-[2018.06.23-12.40.06:662][232]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+[2018.06.23-14.52.57:397][271]LogEditorTransaction: Undo Move Node
+[2018.06.23-14.52.57:397][271]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000bcfa71c8, Size=4
+[2018.06.23-14.52.57:397][271]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000080e34fb8, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_77:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.52.57:402][271]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000080e35570, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.52.57:403][271]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
 Script call stack:
 	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
 	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
 
-[2018.06.23-12.40.07:112][232]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+[2018.06.23-14.52.58:669][375]LogEditorTransaction: Undo Break Pin Links
+[2018.06.23-14.52.58:670][375]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000000080e35570, Size=4
+[2018.06.23-14.52.58:670][375]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000bcfa7560, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_79:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.52.58:674][375]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000b2320f58, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.52.58:675][375]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
 Script call stack:
 	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
 	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
 
-[2018.06.23-12.40.07:133][232]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+[2018.06.23-14.52.59:533][441]LogEditorTransaction: Undo Add Node
+[2018.06.23-14.52.59:534][441]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000b2320f58, Size=4
+[2018.06.23-14.52.59:534][441]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000080e35b58, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_81:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.52.59:538][441]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004d96b248, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.52.59:539][441]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
 Script call stack:
 	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
 	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
 
-[2018.06.23-12.40.10:004][517]LogSlate: Window 'ThirdPersonCharacter' being destroyed
-[2018.06.23-12.40.10:007][517]LogSlate: Window 'ThirdPersonCharacter' being destroyed
-[2018.06.23-12.40.10:725][594]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.23-12.40.11:033][631]LogTemp: Repeating last play command: Selected Viewport
-[2018.06.23-12.40.11:057][631]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.06.23-12.40.11:057][631]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.23-12.40.11:057][631]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 23, 2018, 4:40:11 AM)
-[2018.06.23-12.40.11:057][631]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2018.06.23-12.40.11:073][631]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015257s)
-[2018.06.23-12.40.11:073][631]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.06.23-12.40.11:073][631]LogPlayLevel: PIE: World Init took: (0.000771s)
-[2018.06.23-12.40.11:074][631]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016298s)
-[2018.06.23-12.40.11:091][631]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000ce5ba480, Size=592
-[2018.06.23-12.40.11:092][631]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000716a3d80, Size=592
-[2018.06.23-12.40.11:098][631]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.23-12.40.11:110][631]LogInit: FAudioDevice initialized.
-[2018.06.23-12.40.11:138][631]LogLoad: Game class is 'APatheticGameGameMode'
-[2018.06.23-12.40.11:151][631]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.06.23-08.40.11
-[2018.06.23-12.40.11:152][631]LogWorld: Bringing up level for play took: 0.013143
-[2018.06.23-12.40.11:153][631]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.495
-[2018.06.23-12.40.11:153][631]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.06.23-12.40.13:384][894]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonShinbi/Characters/Heroes/Shinbi/Animations/LevelStart_Montage.LevelStart_Montage'
-[2018.06.23-12.40.17:899][433]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.06.23-12.40.17:932][433]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.06.23-12.41.34:801][753]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.06.23-12.41.35:051][766]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.23-12.41.37:613][766]LogSavePackage: Save=1648.80ms
-[2018.06.23-12.41.37:613][766]LogSavePackage: Moving '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Saved/ThirdPersonExampleMap39D8B31547019AD52C7E008D70234489.tmp' to '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
-[2018.06.23-12.41.37:626][766]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
-[2018.06.23-12.41.39:439][766]LogSavePackage: Save=1563.12ms
-[2018.06.23-12.41.39:439][766]LogSavePackage: Moving '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Saved/ThirdPersonExampleMap_BuiltData69529E4146CFF335537BE69D73304687.tmp' to '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2018.06.23-12.41.39:441][766]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.06.23-14.53.01:283][582]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.06.23-14.53.01:305][582]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004d96b248, Size=4
+[2018.06.23-14.53.01:305][582]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000bcfa69c8, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_85:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.53.01:386][582]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000baaf2480, Size=600
+[2018.06.23-14.53.01:386][582]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000baf43100, Size=600, ThirdPersonCharacter_C_33 Function /Engine/Transient.REINST_ThirdPersonCharacter_C_90:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.53.01:397][582]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000080141300, Size=592, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.53.01:401][582]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
+
+[2018.06.23-14.53.01:403][582]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
+
+[2018.06.23-14.53.01:949][582]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000bcfa60c8, Size=4
+[2018.06.23-14.53.01:949][582]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000bcfa69c8, Size=4
+[2018.06.23-14.53.01:949][582]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000000080e35b58, Size=4
+[2018.06.23-14.53.01:949][582]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000bcfa7560, Size=4
+[2018.06.23-14.53.01:949][582]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000000080e34fb8, Size=4
+[2018.06.23-14.53.01:953][582]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
+
+[2018.06.23-14.53.01:975][582]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
+
+[2018.06.23-14.53.02:908][619]LogSavePackage: Save=314.57ms
+[2018.06.23-14.53.02:908][619]LogSavePackage: Moving '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Saved/ThirdPersonCharacter74E54898465513B6FE95FE8F57A70F3A.tmp' to '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.06.23-14.53.02:913][619]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset
+[2018.06.23-14.53.04:169][682]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.23-14.53.04:245][689]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.23-14.53.04:280][689]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-14.53.04:280][689]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.23-14.53.04:280][689]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 23, 2018, 6:53:04 AM)
+[2018.06.23-14.53.04:280][689]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.06.23-14.53.04:299][689]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018369s)
+[2018.06.23-14.53.04:299][689]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.06.23-14.53.04:300][689]LogPlayLevel: PIE: World Init took: (0.001047s)
+[2018.06.23-14.53.04:300][689]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019613s)
+[2018.06.23-14.53.04:325][689]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.23-14.53.04:335][689]LogInit: FAudioDevice initialized.
+[2018.06.23-14.53.04:365][689]LogLoad: Game class is 'APatheticGameGameMode'
+[2018.06.23-14.53.04:373][689]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.06.23-10.53.04
+[2018.06.23-14.53.04:373][689]LogWorld: Bringing up level for play took: 0.007663
+[2018.06.23-14.53.04:375][689]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.274
+[2018.06.23-14.53.04:375][689]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-14.53.06:553][793]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	ThirdPersonCharacter_C /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_2
+	Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:0860
+[2018.06.23-14.53.06:554][793]PIE: Error: Infinite Loop detected in  ThirdPersonCharacter , asserted during  Branch with the following  Call Stack
+[2018.06.23-14.53.06:556][793]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-14.53.06:601][793]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-14.53.13:624][295]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.23-14.53.53:809][ 58]LogEditorTransaction: Undo Move Node
+[2018.06.23-14.53.53:814][ 58]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000bcfa6558, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.53.53:815][ 58]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
+
+[2018.06.23-14.53.54:357][ 92]LogEditorTransaction: Undo Create Pin Link
+[2018.06.23-14.53.54:358][ 92]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000bcfa6558, Size=4
+[2018.06.23-14.53.54:358][ 92]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000c351e998, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_94:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.53.54:362][ 92]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000c351f858, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.53.54:363][ 92]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
+
+[2018.06.23-14.53.54:897][132]LogEditorTransaction: Undo Create Pin Link
+[2018.06.23-14.53.54:897][132]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000c351f858, Size=4
+[2018.06.23-14.53.54:898][132]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000b2320838, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_96:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.53.54:901][132]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000b2323108, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.53.54:903][132]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
+
+[2018.06.23-14.54.07:987][366]LogEditorTransaction: Undo Create Pin Link
+[2018.06.23-14.54.07:988][366]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000b2323108, Size=4
+[2018.06.23-14.54.07:988][366]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004d96ab90, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_98:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.54.07:992][366]LogUObjectGlobals: Created PersistentFrame Addr=0x000000004d96b628, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.54.07:993][366]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
+
+[2018.06.23-14.54.19:735][514]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.06.23-14.54.19:757][514]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004d96b628, Size=4
+[2018.06.23-14.54.19:757][514]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000bcfa7e70, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_102:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.54.19:798][514]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000000080141300, Size=592
+[2018.06.23-14.54.19:798][514]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000b1c9cb80, Size=592, ThirdPersonCharacter_C_58 Function /Engine/Transient.REINST_ThirdPersonCharacter_C_107:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.54.19:809][514]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000bc6f5080, Size=592, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.54.19:812][514]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
+
+[2018.06.23-14.54.19:814][514]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
+
+[2018.06.23-14.54.20:443][514]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000bcfa7e70, Size=4
+[2018.06.23-14.54.20:443][514]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000004d96ab90, Size=4
+[2018.06.23-14.54.20:444][514]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000c351e998, Size=4
+[2018.06.23-14.54.20:444][514]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000b2320838, Size=4
+[2018.06.23-14.54.20:447][514]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
+
+[2018.06.23-14.54.20:468][514]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
+
+[2018.06.23-14.54.21:531][552]LogSavePackage: Save=502.12ms
+[2018.06.23-14.54.21:531][552]LogSavePackage: Moving '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Saved/ThirdPersonCharacter7FE2D52440176A7F45980E8A51046077.tmp' to '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.06.23-14.54.21:534][552]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset
+[2018.06.23-14.54.23:279][653]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.23-14.54.23:355][661]LogSlate: Window 'Message Log' being destroyed
+[2018.06.23-14.54.23:358][661]LogSlate: Window 'Message Log' being destroyed
+[2018.06.23-14.54.23:824][711]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.23-14.54.23:887][718]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.23-14.54.24:016][718]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-14.54.24:016][718]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.23-14.54.24:016][718]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 23, 2018, 6:54:24 AM)
+[2018.06.23-14.54.24:016][718]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.06.23-14.54.24:038][718]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022078s)
+[2018.06.23-14.54.24:039][718]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.06.23-14.54.24:039][718]LogPlayLevel: PIE: World Init took: (0.000827s)
+[2018.06.23-14.54.24:039][718]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023166s)
+[2018.06.23-14.54.24:061][718]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000b1c9cb80, Size=592
+[2018.06.23-14.54.24:067][718]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.23-14.54.24:077][718]LogInit: FAudioDevice initialized.
+[2018.06.23-14.54.24:105][718]LogLoad: Game class is 'APatheticGameGameMode'
+[2018.06.23-14.54.24:113][718]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.06.23-10.54.24
+[2018.06.23-14.54.24:113][718]LogWorld: Bringing up level for play took: 0.007712
+[2018.06.23-14.54.24:115][718]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.009
+[2018.06.23-14.54.24:115][718]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-14.54.26:239][920]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonShinbi/Characters/Heroes/Shinbi/Animations/LevelStart_Montage.LevelStart_Montage'
+[2018.06.23-14.54.44:341][703]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-14.54.44:385][703]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-14.54.46:565][873]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.23-14.58.27:336][202]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000080e36200, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.58.27:337][202]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
+
+[2018.06.23-14.59.17:162][429]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.06.23-14.59.17:218][429]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000000080e36200, Size=4
+[2018.06.23-14.59.17:218][429]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000074018cf8, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_113:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.59.17:444][429]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000bc6f5080, Size=592
+[2018.06.23-14.59.17:444][429]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000081b60400, Size=592, ThirdPersonCharacter_C_68 Function /Engine/Transient.REINST_ThirdPersonCharacter_C_118:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.59.17:455][429]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000bc776700, Size=576, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-14.59.17:459][429]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
+
+[2018.06.23-14.59.17:461][429]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
+
+[2018.06.23-14.59.17:902][429]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000000074018cf8, Size=4
+[2018.06.23-14.59.17:905][429]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
+
+[2018.06.23-14.59.17:928][429]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
+
+[2018.06.23-14.59.19:288][499]LogSavePackage: Save=367.41ms
+[2018.06.23-14.59.19:288][499]LogSavePackage: Moving '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Saved/ThirdPersonCharacterD939A69044F37BFC0FBEDC862D84CC91.tmp' to '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.06.23-14.59.19:297][499]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset
+[2018.06.23-14.59.20:825][582]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.23-14.59.20:902][589]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.23-14.59.20:939][589]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-14.59.20:939][589]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.23-14.59.20:939][589]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 23, 2018, 6:59:20 AM)
+[2018.06.23-14.59.20:939][589]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.06.23-14.59.20:962][589]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022458s)
+[2018.06.23-14.59.20:963][589]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.06.23-14.59.20:963][589]LogPlayLevel: PIE: World Init took: (0.001013s)
+[2018.06.23-14.59.20:963][589]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023706s)
+[2018.06.23-14.59.20:987][589]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.23-14.59.20:997][589]LogInit: FAudioDevice initialized.
+[2018.06.23-14.59.21:027][589]LogLoad: Game class is 'APatheticGameGameMode'
+[2018.06.23-14.59.21:035][589]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.06.23-10.59.21
+[2018.06.23-14.59.21:035][589]LogWorld: Bringing up level for play took: 0.007455
+[2018.06.23-14.59.21:037][589]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.914
+[2018.06.23-14.59.21:037][589]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-14.59.23:246][766]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonShinbi/Characters/Heroes/Shinbi/Animations/LevelStart_Montage.LevelStart_Montage'
+[2018.06.23-14.59.41:623][307]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-14.59.41:668][307]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-14.59.44:139][438]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.23-14.59.55:974][412]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.23-14.59.56:043][412]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-14.59.56:043][412]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.23-14.59.56:044][412]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 23, 2018, 6:59:56 AM)
+[2018.06.23-14.59.56:044][412]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.06.23-14.59.56:065][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021022s)
+[2018.06.23-14.59.56:066][412]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.06.23-14.59.56:066][412]LogPlayLevel: PIE: World Init took: (0.000821s)
+[2018.06.23-14.59.56:066][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022148s)
+[2018.06.23-14.59.56:094][412]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.23-14.59.56:105][412]LogInit: FAudioDevice initialized.
+[2018.06.23-14.59.56:137][412]LogLoad: Game class is 'APatheticGameGameMode'
+[2018.06.23-14.59.56:145][412]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.06.23-10.59.56
+[2018.06.23-14.59.56:145][412]LogWorld: Bringing up level for play took: 0.007777
+[2018.06.23-14.59.56:147][412]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.022
+[2018.06.23-14.59.56:147][412]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-14.59.58:318][584]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonShinbi/Characters/Heroes/Shinbi/Animations/LevelStart_Montage.LevelStart_Montage'
+[2018.06.23-15.00.42:976][174]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-15.00.43:025][174]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-15.00.45:059][293]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.23-15.01.50:509][531]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.06.23-15.01.50:616][531]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000bc776700, Size=576
+[2018.06.23-15.01.50:616][531]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000c44e3600, Size=576, ThirdPersonCharacter_C_74 Function /Engine/Transient.REINST_ThirdPersonCharacter_C_127:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-15.01.50:628][531]LogUObjectGlobals: Created PersistentFrame Addr=0x000000008bda2700, Size=576, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-15.01.50:632][531]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
+
+[2018.06.23-15.01.50:634][531]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
+
+[2018.06.23-15.01.51:077][531]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
+
+[2018.06.23-15.01.51:102][531]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonShinbi/Characters/Heroes/Shinbi/Shinbi_AnimBlueprint.Shinbi_AnimBlueprint_C:ExecuteUbergraph_Shinbi_AnimBlueprint
+
+[2018.06.23-15.01.53:083][656]LogSavePackage: Save=553.70ms
+[2018.06.23-15.01.53:083][656]LogSavePackage: Moving '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Saved/ThirdPersonCharacter5B18F0B4417C75443521CF8D3BCB5BDC.tmp' to '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.06.23-15.01.53:091][656]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset
+[2018.06.23-15.01.54:618][748]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.23-15.01.54:989][786]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.23-15.01.55:028][786]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-15.01.55:028][786]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.23-15.01.55:028][786]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 23, 2018, 7:01:55 AM)
+[2018.06.23-15.01.55:029][786]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.06.23-15.01.55:048][786]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019759s)
+[2018.06.23-15.01.55:049][786]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.06.23-15.01.55:049][786]LogPlayLevel: PIE: World Init took: (0.000821s)
+[2018.06.23-15.01.55:049][786]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.020801s)
+[2018.06.23-15.01.55:072][786]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000c44e3600, Size=576
+[2018.06.23-15.01.55:078][786]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.23-15.01.55:089][786]LogInit: FAudioDevice initialized.
+[2018.06.23-15.01.55:119][786]LogLoad: Game class is 'APatheticGameGameMode'
+[2018.06.23-15.01.55:127][786]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.06.23-11.01.55
+[2018.06.23-15.01.55:127][786]LogWorld: Bringing up level for play took: 0.007917
+[2018.06.23-15.01.55:129][786]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.998
+[2018.06.23-15.01.55:129][786]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-15.01.57:339][979]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonShinbi/Characters/Heroes/Shinbi/Animations/LevelStart_Montage.LevelStart_Montage'
+[2018.06.23-15.02.03:934][605]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-15.02.03:978][605]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-15.02.06:881][740]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.23-15.02.06:948][746]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.23-15.02.06:969][746]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-15.02.06:969][746]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.23-15.02.06:969][746]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 23, 2018, 7:02:06 AM)
+[2018.06.23-15.02.06:969][746]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.06.23-15.02.06:989][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019539s)
+[2018.06.23-15.02.06:990][746]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.06.23-15.02.06:990][746]LogPlayLevel: PIE: World Init took: (0.000725s)
+[2018.06.23-15.02.06:990][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.020524s)
+[2018.06.23-15.02.07:014][746]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.23-15.02.07:024][746]LogInit: FAudioDevice initialized.
+[2018.06.23-15.02.07:053][746]LogLoad: Game class is 'APatheticGameGameMode'
+[2018.06.23-15.02.07:061][746]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.06.23-11.02.07
+[2018.06.23-15.02.07:061][746]LogWorld: Bringing up level for play took: 0.008136
+[2018.06.23-15.02.07:062][746]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.931
+[2018.06.23-15.02.07:063][746]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-15.02.09:290][951]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonShinbi/Characters/Heroes/Shinbi/Animations/LevelStart_Montage.LevelStart_Montage'
+[2018.06.23-15.02.24:192][351]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-15.02.24:237][351]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-15.02.27:151][580]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.23-15.02.36:299][340]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2018.06.23-15.02.36:301][340]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2018.06.23-15.02.52:736][  5]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.23-15.03.22:349][599]LogSavePackage: Save=683.47ms
+[2018.06.23-15.03.22:349][599]LogSavePackage: Moving '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Saved/ThirdPersonExampleMap_Auto26AB4BABA4288EE359CE8ACB27E5ABF0F.tmp' to '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2018.06.23-15.03.22:355][599]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2018.06.23-15.03.22:359][599]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.876
+[2018.06.23-15.03.22:359][599]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.876
+[2018.06.23-15.05.14:563][226]LogSavePackage: Save=418.72ms
+[2018.06.23-15.05.14:563][226]LogSavePackage: Moving '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Saved/ThirdPersonCharacter8AA34BE041AA1CF185A2E7A7D322F7D8.tmp' to '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.06.23-15.05.14:568][226]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset
+[2018.06.23-15.05.36:036][183]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2018.06.23-15.05.36:039][183]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2018.06.23-15.05.40:854][745]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2018.06.23-15.05.42:828][941]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.23-15.05.44:009][ 75]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.23-15.05.45:909][164]LogRenderer: Reallocating scene render targets to support 1124x804 Format 10 NumSamples 1 (Frame:1).
+[2018.06.23-15.05.50:853][532]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.23-15.05.54:115][748]LogAnimation: Warning: AnimBP Shinbi_AnimBlueprint_C is incompatible with skeleton UE4_Mannequin_Skeleton, removing AnimBP from actor.
+[2018.06.23-15.05.54:116][748]LogAnimation: Warning: AnimBP Shinbi_AnimBlueprint_C is incompatible with skeleton UE4_Mannequin_Skeleton, removing AnimBP from actor.
+[2018.06.23-15.05.54:117][748]LogAnimation: Warning: AnimBP Shinbi_AnimBlueprint_C is incompatible with skeleton UE4_Mannequin_Skeleton, removing AnimBP from actor.
+[2018.06.23-15.05.54:117][748]LogAnimation: Warning: AnimBP Shinbi_AnimBlueprint_C is incompatible with skeleton UE4_Mannequin_Skeleton, removing AnimBP from actor.
+[2018.06.23-15.05.55:904][884]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
+[2018.06.23-15.05.55:904][884]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
+[2018.06.23-15.05.55:904][884]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
+[2018.06.23-15.05.57:089][974]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.23-15.06.00:431][230]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.06.23-15.06.00:466][230]LogUObjectGlobals: Created PersistentFrame Addr=0x000000009bf34c00, Size=64, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.06.23-15.06.00:475][230]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000009bf34c00, Size=64
+[2018.06.23-15.06.00:475][230]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000e6ea5fc0, Size=64, Default__ThirdPerson_AnimBP_C Function /Engine/Transient.REINST_ThirdPerson_AnimBP_C_2:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.06.23-15.06.00:482][230]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000e73a7c40, Size=72, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.06.23-15.06.01:437][300]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.06.23-15.06.01:488][300]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000008bda2700, Size=576
+[2018.06.23-15.06.01:488][300]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000e6a78b80, Size=576, ThirdPersonCharacter_C_97 Function /Engine/Transient.REINST_ThirdPersonCharacter_C_141:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-15.06.01:499][300]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000e73f5800, Size=576, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-15.06.02:174][300]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000e6ea5fc0, Size=64
+[2018.06.23-15.06.03:503][348]LogSavePackage: Save=588.33ms
+[2018.06.23-15.06.03:503][348]LogSavePackage: Moving '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Saved/ThirdPersonCharacter543D24344A3B1E9777F6C580E39BBE09.tmp' to '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.06.23-15.06.03:510][348]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset
+[2018.06.23-15.06.05:028][424]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.23-15.06.05:136][434]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.23-15.06.05:209][434]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-15.06.05:209][434]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.23-15.06.05:209][434]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 23, 2018, 7:06:05 AM)
+[2018.06.23-15.06.05:209][434]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.06.23-15.06.05:230][434]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021110s)
+[2018.06.23-15.06.05:231][434]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.06.23-15.06.05:231][434]LogPlayLevel: PIE: World Init took: (0.000778s)
+[2018.06.23-15.06.05:231][434]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022122s)
+[2018.06.23-15.06.05:286][434]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.23-15.06.05:298][434]LogInit: FAudioDevice initialized.
+[2018.06.23-15.06.05:326][434]LogLoad: Game class is 'APatheticGameGameMode'
+[2018.06.23-15.06.05:329][434]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.06.23-11.06.05
+[2018.06.23-15.06.05:330][434]LogWorld: Bringing up level for play took: 0.002513
+[2018.06.23-15.06.05:331][434]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.814
+[2018.06.23-15.06.05:331][434]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-15.06.06:590][578]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-15.06.06:625][578]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-15.06.09:730][834]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.23-15.06.15:182][397]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.23-15.06.19:579][841]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.23-15.06.19:587][841]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.06.23-15.06.26:781][538]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.23-15.06.26:861][546]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.06.23-15.06.26:914][546]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000e73f5800, Size=576
+[2018.06.23-15.06.26:914][546]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000a70a0900, Size=576, ThirdPersonCharacter_C_117 Function /Engine/Transient.REINST_ThirdPersonCharacter_C_150:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-15.06.26:924][546]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000c4b66c00, Size=576, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.23-15.06.29:514][725]LogSavePackage: Save=372.55ms
+[2018.06.23-15.06.29:514][725]LogSavePackage: Moving '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Saved/ThirdPersonCharacter0233751348C3B71A8EC243B06699887C.tmp' to '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.06.23-15.06.29:518][725]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset
+[2018.06.23-15.06.30:350][823]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.23-15.06.31:512][962]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.23-15.06.31:587][971]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.23-15.06.31:612][971]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-15.06.31:612][971]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.23-15.06.31:612][971]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 23, 2018, 7:06:31 AM)
+[2018.06.23-15.06.31:612][971]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.06.23-15.06.31:632][971]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020192s)
+[2018.06.23-15.06.31:633][971]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.06.23-15.06.31:633][971]LogPlayLevel: PIE: World Init took: (0.000681s)
+[2018.06.23-15.06.31:633][971]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021083s)
+[2018.06.23-15.06.31:659][971]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.23-15.06.31:669][971]LogInit: FAudioDevice initialized.
+[2018.06.23-15.06.31:696][971]LogLoad: Game class is 'APatheticGameGameMode'
+[2018.06.23-15.06.31:699][971]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.06.23-11.06.31
+[2018.06.23-15.06.31:700][971]LogWorld: Bringing up level for play took: 0.002443
+[2018.06.23-15.06.31:701][971]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.446
+[2018.06.23-15.06.31:701][971]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-15.06.55:366][806]LogAnimMontage: Warning: Playing a Montage (PrimaryMelee_D_Slow_Montage) for the wrong Skeleton (UE4_Mannequin_Skeleton) instead of (Shinbi_Skeleton).
+[2018.06.23-15.07.02:086][610]LogAnimMontage: Warning: Playing a Montage (PrimaryMelee_D_Slow_Montage) for the wrong Skeleton (UE4_Mannequin_Skeleton) instead of (Shinbi_Skeleton).
+[2018.06.23-15.07.02:328][639]LogAnimMontage: Warning: Playing a Montage (PrimaryMelee_D_Slow_Montage) for the wrong Skeleton (UE4_Mannequin_Skeleton) instead of (Shinbi_Skeleton).
+[2018.06.23-15.07.07:298][235]LogAnimMontage: Warning: Playing a Montage (PrimaryMelee_D_Slow_Montage) for the wrong Skeleton (UE4_Mannequin_Skeleton) instead of (Shinbi_Skeleton).
+[2018.06.23-15.07.07:682][281]LogAnimMontage: Warning: Playing a Montage (PrimaryMelee_D_Slow_Montage) for the wrong Skeleton (UE4_Mannequin_Skeleton) instead of (Shinbi_Skeleton).
+[2018.06.23-15.07.07:932][311]LogAnimMontage: Warning: Playing a Montage (PrimaryMelee_D_Slow_Montage) for the wrong Skeleton (UE4_Mannequin_Skeleton) instead of (Shinbi_Skeleton).
+[2018.06.23-15.07.09:915][549]LogAnimMontage: Warning: Playing a Montage (PrimaryMelee_D_Slow_Montage) for the wrong Skeleton (UE4_Mannequin_Skeleton) instead of (Shinbi_Skeleton).
+[2018.06.23-15.07.10:191][582]LogAnimMontage: Warning: Playing a Montage (PrimaryMelee_D_Slow_Montage) for the wrong Skeleton (UE4_Mannequin_Skeleton) instead of (Shinbi_Skeleton).
+[2018.06.23-15.07.10:357][602]LogAnimMontage: Warning: Playing a Montage (PrimaryMelee_D_Slow_Montage) for the wrong Skeleton (UE4_Mannequin_Skeleton) instead of (Shinbi_Skeleton).
+[2018.06.23-15.07.10:725][646]LogAnimMontage: Warning: Playing a Montage (PrimaryMelee_D_Slow_Montage) for the wrong Skeleton (UE4_Mannequin_Skeleton) instead of (Shinbi_Skeleton).
+[2018.06.23-15.07.32:318][236]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-15.07.32:355][236]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.06.23-15.07.35:610][596]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.23-15.07.36:335][596]LogSavePackage: Save=615.87ms
+[2018.06.23-15.07.36:335][596]LogSavePackage: Moving '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Saved/ThirdPersonExampleMap7E4D28CE4D8BBFD965BBC48E05F1D482.tmp' to '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2018.06.23-15.07.36:340][596]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
+[2018.06.23-15.07.36:806][596]LogSavePackage: Save=296.75ms
+[2018.06.23-15.07.36:806][596]LogSavePackage: Moving '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Saved/ThirdPersonExampleMap_BuiltData0600816B4803E07A5808E9A6E95599FB.tmp' to '../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.06.23-15.07.36:808][596]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/DasSKander/Documents/Unreal Projects/APatheticGame3/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.06.23-15.07.37:522][681]LogSlate: FSceneViewport::OnFocusLost() reason 0
