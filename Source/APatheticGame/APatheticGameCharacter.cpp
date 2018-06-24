@@ -8,6 +8,8 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "AbilitySystemComponent.h"
+
 
 //////////////////////////////////////////////////////////////////////////
 // AAPatheticGameCharacter
@@ -45,6 +47,11 @@ AAPatheticGameCharacter::AAPatheticGameCharacter()
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 
+
+	//Ability SYstem Component
+	AbilitySystem = CreateDefaultSubobject<UAbilitySystemComponent>(TEXT("AbilitySystem"));
+
+
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 }
@@ -52,33 +59,63 @@ AAPatheticGameCharacter::AAPatheticGameCharacter()
 //////////////////////////////////////////////////////////////////////////
 // Input
 
+
 void AAPatheticGameCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
 {
-	// Set up gameplay key bindings
+	//set up gameplay key bindings
+
 	check(PlayerInputComponent);
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
-	
 
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AAPatheticGameCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AAPatheticGameCharacter::MoveRight);
 
 	// We have 2 versions of the rotation bindings to handle different kinds of devices differently
-	// "turn" handles devices that provide an absolute delta, such as a mouse.
-	// "turnrate" is for devices that we choose to treat as a rate of change, such as an analog joystick
+		// "turn" handles devices that provide an absolute delta, such as a mouse.
+		// "turnrate" is for devices that we choose to treat as a rate of change, such as an analog joystick
 	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
 	PlayerInputComponent->BindAxis("TurnRate", this, &AAPatheticGameCharacter::TurnAtRate);
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &AAPatheticGameCharacter::LookUpAtRate);
-
 	PlayerInputComponent->BindAction("Crouch", IE_Pressed, this, &AAPatheticGameCharacter::ToggleCrouch);
 	// handle touch devices
 	PlayerInputComponent->BindTouch(IE_Pressed, this, &AAPatheticGameCharacter::TouchStarted);
 	PlayerInputComponent->BindTouch(IE_Released, this, &AAPatheticGameCharacter::TouchStopped);
 
-	// VR headset functionality
 	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &AAPatheticGameCharacter::OnResetVR);
+
+	AbilitySystem->BindAbilityActivationToInputComponent(PlayerInputComponent, FGameplayAbiliyInputBinds("ConfirmInput", "CancelInput", "AbilityInput"));
+}
+
+
+void AAPatheticGameCharacter::BeginPlay()
+{
+	Super::BeginPlay();
+	if (AbilitySystem) {
+		FGameplayAbilityActorInfo* actorInfo = new FGameplayAbilityActorInfo();
+		actorInfo->InitFromActor(this, this, AbilitySystem);
+		AbilitySystem->AbilityActorInfo = TSharedPtr<FGameplayAbilityActorInfo>(actorInfo);
+
+
+
+		if (HasAuthority() && Ability) {
+
+			AbilitySystem->GiveAbility(FGameplayAbilitySpec(Ability.GetDefaultObject(), 1, 0));
+
+		}
+		AbilitySystem->InitAbilityActorInfo(this, this);
+	}
+
+}
+
+
+void AAPatheticGameCharacter::PossessedBy(AController * NewController) {
+	Super::PossessedBy(NewController);
+	AbilitySystem->RefreshAbilityActorInfo();
+
+
 }
 
 
