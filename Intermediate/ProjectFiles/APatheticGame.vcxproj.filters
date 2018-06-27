@@ -1,82 +1,91 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\APatheticGame.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{7D70D5B8-785C-4AA5-8BE0-CEE17540DA70}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\APatheticGame.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\APatheticGameEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{FF78E4A7-BA14-4697-B311-26BA4E6F28DD}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultInput.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\APatheticGame">
-			<UniqueIdentifier>{EC314D06-7B64-4D7B-9DFA-91FDC367DD1C}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\APatheticGame\APatheticGame.Build.cs">
-			<Filter>Source\APatheticGame</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\APatheticGame\APatheticGame.cpp">
-			<Filter>Source\APatheticGame</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\APatheticGame\APatheticGame.h">
-			<Filter>Source\APatheticGame</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\APatheticGame\APatheticGameCharacter.cpp">
-			<Filter>Source\APatheticGame</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\APatheticGame\APatheticGameCharacter.h">
-			<Filter>Source\APatheticGame</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\APatheticGame\APatheticGameGameMode.cpp">
-			<Filter>Source\APatheticGame</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\APatheticGame\APatheticGameGameMode.h">
-			<Filter>Source\APatheticGame</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\APatheticGame\MoveObject.cpp">
-			<Filter>Source\APatheticGame</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\APatheticGame\MoveObject.h">
-			<Filter>Source\APatheticGame</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\APatheticGame\MyDoorTriggerBox.cpp">
-			<Filter>Source\APatheticGame</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\APatheticGame\MyDoorTriggerBox.h">
-			<Filter>Source\APatheticGame</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\APatheticGame\OpenDahDoor.cpp">
-			<Filter>Source\APatheticGame</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\APatheticGame\OpenDahDoor.h">
-			<Filter>Source\APatheticGame</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\APatheticGame\TestHere.cpp">
-			<Filter>Source\APatheticGame</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\APatheticGame\TestHere.h">
-			<Filter>Source\APatheticGame</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\APatheticGame.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{7D70D5B8-785C-4AA5-8BE0-CEE17540DA70}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\APatheticGame.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\APatheticGameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FF78E4A7-BA14-4697-B311-26BA4E6F28DD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\APatheticGame">
+      <UniqueIdentifier>{EC314D06-7B64-4D7B-9DFA-91FDC367DD1C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\APatheticGame\APatheticGame.Build.cs">
+      <Filter>Source\APatheticGame</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\APatheticGame\APatheticGame.cpp">
+      <Filter>Source\APatheticGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\APatheticGame\APatheticGame.h">
+      <Filter>Source\APatheticGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\APatheticGame\APatheticGameCharacter.cpp">
+      <Filter>Source\APatheticGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\APatheticGame\APatheticGameCharacter.h">
+      <Filter>Source\APatheticGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\APatheticGame\APatheticGameGameMode.cpp">
+      <Filter>Source\APatheticGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\APatheticGame\APatheticGameGameMode.h">
+      <Filter>Source\APatheticGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\APatheticGame\MoveObject.cpp">
+      <Filter>Source\APatheticGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\APatheticGame\MoveObject.h">
+      <Filter>Source\APatheticGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\APatheticGame\MyDoorTriggerBox.cpp">
+      <Filter>Source\APatheticGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\APatheticGame\MyDoorTriggerBox.h">
+      <Filter>Source\APatheticGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\APatheticGame\OpenDahDoor.cpp">
+      <Filter>Source\APatheticGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\APatheticGame\OpenDahDoor.h">
+      <Filter>Source\APatheticGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\APatheticGame\TestHere.cpp">
+      <Filter>Source\APatheticGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\APatheticGame\TestHere.h">
+      <Filter>Source\APatheticGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\APatheticGame\AbilityTask_MyTask.h">
+      <Filter>Source\APatheticGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\APatheticGame\AbilityTask_MyTask.cpp">
+      <Filter>Source\APatheticGame</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
